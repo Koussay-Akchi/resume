@@ -74,7 +74,7 @@
 
 #show: resume-theme.with(
   font: "Segoe UI",
-  font-size: 10pt,
+  font-size: 8pt,
   sidebar-content: sidebar
 )
 
