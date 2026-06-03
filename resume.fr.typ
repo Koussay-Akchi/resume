@@ -58,7 +58,7 @@
   React, Next.js, Angular, Flutter \
   #v(0.25cm)
   #text(weight: "bold")[DevOps] \
-  Docker, Kubernetes, Linux (Redhat/Debian), MongoDB
+  Docker, Kubernetes, Terraform, Ansible, Azure, Linux (Redhat/Debian), MongoDB
 
   #sidebar-heading("LANGUES")
   #grid(
