@@ -31,16 +31,18 @@
     "40 862 777"
   )
   #contact-item(
+    "📍",
+    "Tunis, Tunisia"
+  )
+
+  #sidebar-heading("LINKS")
+  #contact-item(
     "🔗",
     "koussay.tn",
     link-url: "https://koussay.tn"
   )
   #contact-item(
-    "📍",
-    "Tunis, Tunisia"
-  )
-  #contact-item(
-    "🐙",
+    image("github-icon.svg", width: 11pt, height: 11pt),
     "github.com/Koussay-Akchi",
     link-url: "https://github.com/Koussay-Akchi"
   )
@@ -83,7 +85,7 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
 
 #experience-item(
   company: "OpkodeLabs",
-  position: "Full Stack Web Developer",
+  position: "Full Stack Software Engineer (Part time)",
   date: "July 2025 - Present",
   description: [
     Developed WattLink, a full-stack multi-tenant EV charging station management platform, built on the OCPP 1.6 protocol. Engineered a real-time monitoring system using Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO, and Grafana dashboards, enabling operators to remotely manage charging sessions, configure dynamic pricing, and track telemetry data across multi-tenant networks.
@@ -93,7 +95,7 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
 
 #experience-item(
   company: "HexaFlow",
-  position: "Full Stack Software Engineer",
+  position: "Full Stack Software Engineer (Full time)",
   date: "Feb 2025 - Dec 2025",
   description: [
     Developing dynamic web applications using NodeJS, React and Java. Optimizing system architecture by integrating Docker solutions. Collaborated on agile teams to deliver quality features within tight deadlines.
@@ -103,7 +105,7 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
 
 #experience-item(
   company: "Wecraft",
-  position: "Full Stack Software Engineer",
+  position: "Full Stack Software Engineer (Part time)",
   date: "June 2024 - Jan 2025",
   description: [
     Developing and maintaining a comprehensive CRM for pharmaceutical laboratories. My role includes implementing front-end interfaces, developing back-end functionalities, and designing thorough tests for both.
@@ -148,4 +150,5 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
 )
 
 = CERTIFICATES
-- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco [Credentials Link](https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9)
+- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco 
+#link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")[https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9]

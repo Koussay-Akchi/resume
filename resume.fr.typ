@@ -31,16 +31,18 @@
     "40 862 777"
   )
   #contact-item(
+    "📍",
+    "Tunis, Tunisie"
+  )
+
+  #sidebar-heading("LIENS")
+  #contact-item(
     "🔗",
     "koussay.tn",
     link-url: "https://koussay.tn"
   )
   #contact-item(
-    "📍",
-    "Tunis, Tunisie"
-  )
-  #contact-item(
-    "🐙",
+    image("github-icon.svg", width: 11pt, height: 11pt),
     "github.com/Koussay-Akchi",
     link-url: "https://github.com/Koussay-Akchi"
   )
@@ -83,7 +85,7 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
 
 #experience-item(
   company: "OpkodeLabs",
-  position: "Ingénieur Full Stack",
+  position: "Ingénieur Full Stack (Temps partiel)",
   date: "Juillet 2025 - Présent",
   description: [
     Développement de WattLink, une plateforme full-stack multi-tenant de gestion de bornes de recharge pour véhicules électriques (EVSE), basée sur le protocole OCPP 1.6. Conception d'un système de supervision en temps réel utilisant Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO et des tableaux de bord Grafana, permettant aux opérateurs de gérer à distance les sessions de recharge, de configurer une tarification dynamique et de suivre les données de télémétrie sur des réseaux multi-tenant.
@@ -93,7 +95,7 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
 
 #experience-item(
   company: "HexaFlow",
-  position: "Ingénieur Full Stack",
+  position: "Ingénieur Full Stack (Temps plein)",
   date: "Févr 2025 - Déc 2025",
   description: [
     Développement des applications web dynamiques en utilisant NodeJS et Java et optimisation de l'architecture des systèmes en intégrant des solutions cloud avec Docker. Collaboration dans des équipes agiles pour livrer des fonctionnalités de qualité dans des délais serrés.
@@ -103,7 +105,7 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
 
 #experience-item(
   company: "Wecraft",
-  position: "Ingénieur Full Stack",
+  position: "Ingénieur Full Stack (Temps partiel)",
   date: "Juin 2024 - Janv 2025",
   description: [
     Développement et maintenance d'un CRM complet pour les laboratoires pharmaceutiques. Mon rôle consiste à mettre en œuvre des interfaces front-end, à développer des fonctionnalités back-end et à concevoir des tests approfondis pour les deux.
@@ -149,4 +151,5 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
 
 
 = CERTIFICATS
-- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco [Credentials Link](https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9)
+- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco 
+#link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")[https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9]

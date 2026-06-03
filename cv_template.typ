@@ -29,7 +29,7 @@
         block(
           width: sidebar-width - 1.2cm,
           [
-            #set text(fill: sidebar-text-color, font: font, size: font-size)
+            #set text(fill: sidebar-text-color, font: font, size: font-size, hyphenate: false)
             #sidebar-content
           ]
         )
