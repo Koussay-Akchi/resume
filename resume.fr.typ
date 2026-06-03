@@ -15,7 +15,7 @@
     #v(0.3cm)
     #text(size: 1.4em, weight: "bold")[Koussay Akchi] \
     #v(0.1cm)
-    #text(size: 1.0em, style: "italic", fill: white.darken(10%))[Développeur Web Full Stack]
+    #text(size: 1.0em, style: "italic", fill: white.darken(10%))[Ingénieur Full Stack]
   ]
 
   #v(0.5cm)
