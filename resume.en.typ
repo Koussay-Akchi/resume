@@ -27,7 +27,7 @@
     link-url: "mailto:akchikoussay@gmail.com"
   )
   #contact-item(
-    "🕾",
+    "☏",
     "40 862 777"
   )
   #contact-item(
@@ -36,28 +36,29 @@
     link-url: "https://koussay.tn"
   )
   #contact-item(
-    "📍",
+    "⌂",
     "Tunis, Tunisie"
   )
   #contact-item(
-    "🐙",
-    "github.com/Koussay-Akchi",
+    "🖳",
+    "GitHub",
     link-url: "https://github.com/Koussay-Akchi"
   )
+  #contact-item(
+    "in",
+    "LinkedIn",
+    link-url: "https://www.linkedin.com/in/koussay-akchi-782765274/"
+  )
 
-  #sidebar-heading("EDUCATION")
-  #education-item(
-    institution: "ESPRIT",
-    area: "Software Engineering",
-    studyType: "Engineering Degree",
-    date: "2024 - Present"
-  )
-  #education-item(
-    institution: "ISTIC Borj Cedria",
-    area: "Computer Science (GLSI)",
-    studyType: "Bachelor's Degree",
-    date: "2021 - 2024"
-  )
+  #sidebar-heading("SKILLS")
+  #text(weight: "bold")[Backend] \
+  Node.js, Java, Python, C/C++ \
+  #v(0.25cm)
+  #text(weight: "bold")[Frontend] \
+  React, Next.js, Angular, Flutter \
+  #v(0.25cm)
+  #text(weight: "bold")[DevOps] \
+  Docker, Kubernetes, Linux (Redhat/Debian), MongoDB
 
   #sidebar-heading("LANGUAGES")
   #grid(
@@ -130,6 +131,22 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
   tech: ("C#", "ASP.NET", "Java", "Postgres")
 )
 
+= EDUCATION
+
+#experience-item(
+  company: "ESPRIT",
+  position: "Engineering Degree in Software Engineering",
+  date: "2024 - Present",
+  description: []
+)
+
+#experience-item(
+  company: "ISTIC Borj Cedria",
+  position: "Bachelor's Degree in Computer Science (GLSI)",
+  date: "2021 - 2024",
+  description: []
+)
+
 = PROJECTS
 
 #project-item(
@@ -141,14 +158,5 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
   tech: ("Laravel", "PostgreSQL", "Redis", "Socket.IO", "Grafana")
 )
 
-= SKILLS
-#grid(
-  columns: (1fr, 1fr, 1fr),
-  row-gutter: 8pt,
-  [*Backend* \ Node.js \ Java \ Python \ C/C++],
-  [*Frontend* \ React \ Next.js \ Angular \ Flutter],
-  [*DevOps / DB* \ Docker \ Kubernetes \ Linux \ MongoDB]
-)
-
 = CERTIFICATES
-- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco
+- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco #link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")\[Credentials Link\]
