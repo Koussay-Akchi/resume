@@ -6,7 +6,7 @@
       block(
         width: 3.5cm,
         height: 3.5cm,
-        radius: 50%
+        radius: 50%,
         clip: true,
         stroke: 2pt + white,
         image("photo.jpg", width: 100%, height: 100%, fit: "cover")
