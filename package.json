@@ -1,0 +1,15 @@
+{
+  "name": "koussay-resume",
+  "version": "1.0.0",
+  "description": "Koussay Akchi's resume JSON",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:en && npm run build:fr",
+    "build:en": "resume export output/koussay_akchi_cv_english.pdf --resume resume.en.json --theme @jsonresume/jsonresume-theme-class",
+    "build:fr": "resume export output/koussay_akchi_cv_francais.pdf --resume resume.fr.json --theme @jsonresume/jsonresume-theme-class"
+  },
+  "devDependencies": {
+    "resume-cli": "^3.0.8",
+    "@jsonresume/jsonresume-theme-class": "latest"
+  }
+}

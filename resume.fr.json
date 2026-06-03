@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "@jsonresume/jsonresume-theme-class",
+    "language": "fr",
+    "lastModified": "2025-07-01T00:00:00"
+  },
+  "basics": {
+    "name": "Koussay Akchi",
+    "label": "Développeur Web Full Stack",
+    "image": "./photo.jpg",
+    "email": "akchikoussay@gmail.com",
+    "phone": "40 862 777",
+    "url": "https://koussay.tn",
+    "summary": "Je suis un développeur de logiciels passionné avec un fort intérêt pour le développement web et les technologies open-source. Ma passion pour l'apprentissage se reflète dans les projets que je développe et que je partage sur mon site Web et GitHub.",
+    "location": {
+      "city": "Tunis",
+      "countryCode": "TN",
+      "region": "Tunisie"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Koussay-Akchi",
+        "url": "https://github.com/Koussay-Akchi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "OpkodeLabs",
+      "position": "Développeur Web Full Stack",
+      "startDate": "2025-07",
+      "endDate": "",
+      "summary": "Développement de WattLink, une plateforme full-stack multi-tenant de gestion de bornes de recharge pour véhicules électriques (EVSE), basée sur le protocole OCPP 1.6. Conception d'un système de supervision en temps réel utilisant Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO et des tableaux de bord Grafana, permettant aux opérateurs de gérer à distance les sessions de recharge, de configurer une tarification dynamique et de suivre les données de télémétrie sur des réseaux multi-tenant.",
+      "highlights": [
+        "OCPP 1.6, Laravel, Python, Redis, Docker, Socket.IO, Grafana"
+      ]
+    },
+    {
+      "name": "HexaFlow",
+      "position": "Développeur Web Full Stack",
+      "startDate": "2025-02",
+      "endDate": "2025-12",
+      "summary": "Développement des applications web dynamiques en utilisant NodeJS et Java et optimisation de l'architecture des systèmes en intégrant des solutions cloud avec Docker. Collaboration dans des équipes agiles pour livrer des fonctionnalités de qualité dans des délais serrés.",
+      "highlights": [
+        "Technologies : React, Next.js, Node.js, JavaFX, Docker"
+      ]
+    },
+    {
+      "name": "Wecraft",
+      "position": "Développeur Web Full Stack",
+      "startDate": "2024-06",
+      "endDate": "2025-01",
+      "summary": "Développement et maintenance d'un CRM complet pour les laboratoires pharmaceutiques. Mon rôle consiste à mettre en œuvre des interfaces front-end, à développer des fonctionnalités back-end et à concevoir des tests approfondis pour les deux.",
+      "highlights": [
+        "Technologies : React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+      ]
+    },
+    {
+      "name": "Wecraft",
+      "position": "Stage de fin d'études",
+      "startDate": "2024-01",
+      "endDate": "2024-06",
+      "summary": "Durant mon stage, j'ai acquis une expérience pratique dans le développement et la maintenance d'applications web, en contribuant à la fois aux tâches front-end et back-end.",
+      "highlights": [
+        "Technologies : React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+      ]
+    },
+    {
+      "name": "Alliance Technologie",
+      "position": "Stage d'été",
+      "startDate": "2023-06",
+      "endDate": "2023-07",
+      "summary": "Développement d'un microservice et un API pour la gestion des bons d'achats électroniques pour les clients de la SNDP.",
+      "highlights": [
+        "Technologies : C#, ASP.NET, Java, Postgres"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ESPRIT",
+      "area": "Ingénierie Informatique",
+      "studyType": "Diplôme d'Ingénieur",
+      "startDate": "2024-09",
+      "endDate": ""
+    },
+    {
+      "institution": "ISTIC Borj Cedria",
+      "area": "Informatique (GLSI)",
+      "studyType": "Licence",
+      "startDate": "2021-09",
+      "endDate": "2024-06"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "CCNA: Switching, Routing, and Wireless Essentials",
+      "issuer": "Cisco",
+      "url": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials"
+    }
+  ],
+  "skills": [
+    { "name": "Node.js" },
+    { "name": "Java" },
+    { "name": "Python" },
+    { "name": "Docker" },
+    { "name": "Kubernetes" },
+    { "name": "Linux (Redhat/Debian)" },
+    { "name": "TypeScript" },
+    { "name": "React" },
+    { "name": "Next.js" },
+    { "name": "Angular" },
+    { "name": "MongoDB" },
+    { "name": "Flutter" },
+    { "name": "Figma" },
+    { "name": "C/C++" }
+  ],
+  "languages": [
+    { "language": "Anglais", "fluency": "Courant" },
+    { "language": "Français", "fluency": "Courant" },
+    { "language": "Arabe", "fluency": "Langue maternelle" }
+  ]
+}

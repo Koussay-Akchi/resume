@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "@jsonresume/jsonresume-theme-class",
+    "language": "en",
+    "lastModified": "2025-07-01T00:00:00"
+  },
+  "basics": {
+    "name": "Koussay Akchi",
+    "label": "Full Stack Web Developer",
+    "image": "./photo.jpg",
+    "email": "akchikoussay@gmail.com",
+    "phone": "40 862 777",
+    "url": "https://koussay.tn",
+    "summary": "I'm a passionate Full Stack Software Engineer with a strong interest in the concepts of automation and open-source technologies. My passion for learning is reflected in the projects I develop and share on my website and GitHub.",
+    "location": {
+      "city": "Tunis",
+      "countryCode": "TN",
+      "region": "Tunisie"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Koussay-Akchi",
+        "url": "https://github.com/Koussay-Akchi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "OpkodeLabs",
+      "position": "Full Stack Web Developer",
+      "startDate": "2025-07",
+      "endDate": "",
+      "summary": "Developed WattLink, a full-stack multi-tenant EV charging station management platform, built on the OCPP 1.6 protocol. Engineered a real-time monitoring system using Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO, and Grafana dashboards, enabling operators to remotely manage charging sessions, configure dynamic pricing, and track telemetry data across multi-tenant networks.",
+      "highlights": [
+        "OCPP 1.6, Laravel, Python, Redis, Docker, Socket.IO, Grafana"
+      ]
+    },
+    {
+      "name": "HexaFlow",
+      "position": "Full Stack Web Developer",
+      "startDate": "2025-02",
+      "endDate": "2025-12",
+      "summary": "Developing dynamic web applications using NodeJS, React and Java. Optimizing system architecture by integrating Docker solutions. Collaborated on agile teams to deliver quality features within tight deadlines.",
+      "highlights": [
+        "Technologies: React, Next.js, Node.js, JavaFX, Docker"
+      ]
+    },
+    {
+      "name": "Wecraft",
+      "position": "Full Stack Web Developer",
+      "startDate": "2024-06",
+      "endDate": "2025-01",
+      "summary": "Developing and maintaining a comprehensive CRM for pharmaceutical laboratories. My role includes implementing front-end interfaces, developing back-end functionalities, and designing thorough tests for both.",
+      "highlights": [
+        "Technologies: React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+      ]
+    },
+    {
+      "name": "Wecraft",
+      "position": "End of Studies Internship",
+      "startDate": "2024-01",
+      "endDate": "2024-06",
+      "summary": "Gained hands-on experience in developing and maintaining web applications, contributing to both front-end and back-end tasks.",
+      "highlights": [
+        "Technologies: React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+      ]
+    },
+    {
+      "name": "Alliance Technologie",
+      "position": "End of Year Internship",
+      "startDate": "2023-06",
+      "endDate": "2023-07",
+      "summary": "Development of a microservice and an API for the management of electronic purchase vouchers for SNDP customers.",
+      "highlights": [
+        "Technologies: C#, ASP.NET, Java, Postgres"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ESPRIT",
+      "area": "Software Engineering",
+      "studyType": "Engineering Degree",
+      "startDate": "2024-09",
+      "endDate": ""
+    },
+    {
+      "institution": "ISTIC Borj Cedria",
+      "area": "Computer Science (GLSI)",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2021-09",
+      "endDate": "2024-06"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "CCNA: Switching, Routing, and Wireless Essentials",
+      "issuer": "Cisco",
+      "url": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials"
+    }
+  ],
+  "skills": [
+    { "name": "Node.js" },
+    { "name": "Java" },
+    { "name": "Python" },
+    { "name": "Docker" },
+    { "name": "Kubernetes" },
+    { "name": "Linux (Redhat/Debian)" },
+    { "name": "TypeScript" },
+    { "name": "React" },
+    { "name": "Next.js" },
+    { "name": "Angular" },
+    { "name": "MongoDB" },
+    { "name": "Flutter" },
+    { "name": "Figma" },
+    { "name": "C/C++" }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "French", "fluency": "Fluent" },
+    { "language": "Arabic", "fluency": "Native" }
+  ]
+}
