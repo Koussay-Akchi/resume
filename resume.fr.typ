@@ -27,7 +27,7 @@
     link-url: "mailto:akchikoussay@gmail.com"
   )
   #contact-item(
-    "☏",
+    "📞",
     "40 862 777"
   )
   #contact-item(
@@ -36,12 +36,12 @@
     link-url: "https://koussay.tn"
   )
   #contact-item(
-    "⌂",
+    "📍",
     "Tunis, Tunisie"
   )
   #contact-item(
-    "🖳",
-    "GitHub",
+    "🐙",
+    "github.com/Koussay-Akchi",
     link-url: "https://github.com/Koussay-Akchi"
   )
   #contact-item(
@@ -52,7 +52,7 @@
 
   #sidebar-heading("COMPÉTENCES")
   #text(weight: "bold")[Backend] \
-  Node.js, Java, Python, C/C++ \
+  Node.js, Java, Python, C \
   #v(0.25cm)
   #text(weight: "bold")[Frontend] \
   React, Next.js, Angular, Flutter \
@@ -83,7 +83,7 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
 
 #experience-item(
   company: "OpkodeLabs",
-  position: "Développeur Web Full Stack",
+  position: "Ingénieur Full Stack",
   date: "Juillet 2025 - Présent",
   description: [
     Développement de WattLink, une plateforme full-stack multi-tenant de gestion de bornes de recharge pour véhicules électriques (EVSE), basée sur le protocole OCPP 1.6. Conception d'un système de supervision en temps réel utilisant Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO et des tableaux de bord Grafana, permettant aux opérateurs de gérer à distance les sessions de recharge, de configurer une tarification dynamique et de suivre les données de télémétrie sur des réseaux multi-tenant.
@@ -93,17 +93,17 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
 
 #experience-item(
   company: "HexaFlow",
-  position: "Développeur Web Full Stack",
+  position: "Ingénieur Full Stack",
   date: "Févr 2025 - Déc 2025",
   description: [
     Développement des applications web dynamiques en utilisant NodeJS et Java et optimisation de l'architecture des systèmes en intégrant des solutions cloud avec Docker. Collaboration dans des équipes agiles pour livrer des fonctionnalités de qualité dans des délais serrés.
   ],
-  tech: ("React", "Next.js", "Node.js", "JavaFX", "Docker")
+  tech: ("React", "Next.js", "Node.js", "JavaFX", "Docker", "Terraform", "Azure")
 )
 
 #experience-item(
   company: "Wecraft",
-  position: "Développeur Web Full Stack",
+  position: "Ingénieur Full Stack",
   date: "Juin 2024 - Janv 2025",
   description: [
     Développement et maintenance d'un CRM complet pour les laboratoires pharmaceutiques. Mon rôle consiste à mettre en œuvre des interfaces front-end, à développer des fonctionnalités back-end et à concevoir des tests approfondis pour les deux.
@@ -147,16 +147,6 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
   description: []
 )
 
-= PROJETS
-
-#project-item(
-  name: "WattLink",
-  url: "https://koussay.tn",
-  description: [
-    Plateforme full-stack de gestion de bornes de recharge pour véhicules électriques utilisant le protocole OCPP 1.6.
-  ],
-  tech: ("Laravel", "PostgreSQL", "Redis", "Socket.IO", "Grafana")
-)
 
 = CERTIFICATS
-- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco #link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")\[Lien d'accréditation\]
+- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco [Credentials Link](https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9)

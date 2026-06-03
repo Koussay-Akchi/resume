@@ -27,7 +27,7 @@
     link-url: "mailto:akchikoussay@gmail.com"
   )
   #contact-item(
-    "☏",
+    "📞",
     "40 862 777"
   )
   #contact-item(
@@ -36,12 +36,12 @@
     link-url: "https://koussay.tn"
   )
   #contact-item(
-    "⌂",
-    "Tunis, Tunisie"
+    "📍",
+    "Tunis, Tunisia"
   )
   #contact-item(
-    "🖳",
-    "GitHub",
+    "🐙",
+    "github.com/Koussay-Akchi",
     link-url: "https://github.com/Koussay-Akchi"
   )
   #contact-item(
@@ -52,7 +52,7 @@
 
   #sidebar-heading("SKILLS")
   #text(weight: "bold")[Backend] \
-  Node.js, Java, Python, C/C++ \
+  Node.js, Java, Python, C \
   #v(0.25cm)
   #text(weight: "bold")[Frontend] \
   React, Next.js, Angular, Flutter \
@@ -93,17 +93,17 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
 
 #experience-item(
   company: "HexaFlow",
-  position: "Full Stack Web Developer",
+  position: "Full Stack Software Engineer",
   date: "Feb 2025 - Dec 2025",
   description: [
     Developing dynamic web applications using NodeJS, React and Java. Optimizing system architecture by integrating Docker solutions. Collaborated on agile teams to deliver quality features within tight deadlines.
   ],
-  tech: ("React", "Next.js", "Node.js", "JavaFX", "Docker")
+  tech: ("React", "Next.js", "Node.js", "JavaFX", "Docker", "Terraform", "Azure")
 )
 
 #experience-item(
   company: "Wecraft",
-  position: "Full Stack Web Developer",
+  position: "Full Stack Software Engineer",
   date: "June 2024 - Jan 2025",
   description: [
     Developing and maintaining a comprehensive CRM for pharmaceutical laboratories. My role includes implementing front-end interfaces, developing back-end functionalities, and designing thorough tests for both.
@@ -147,16 +147,5 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
   description: []
 )
 
-= PROJECTS
-
-#project-item(
-  name: "WattLink",
-  url: "https://koussay.tn",
-  description: [
-    Full-stack EV charging station management platform using OCPP 1.6 protocol.
-  ],
-  tech: ("Laravel", "PostgreSQL", "Redis", "Socket.IO", "Grafana")
-)
-
 = CERTIFICATES
-- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco #link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")\[Credentials Link\]
+- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco [Credentials Link](https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9)
