@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "theme": "@jsonresume/jsonresume-theme-class",
+    "theme": "sidebar",
     "language": "fr",
     "lastModified": "2025-07-01T00:00:00"
   },
@@ -102,24 +102,61 @@
     }
   ],
   "skills": [
-    { "name": "Node.js" },
-    { "name": "Java" },
-    { "name": "Python" },
-    { "name": "Docker" },
-    { "name": "Kubernetes" },
-    { "name": "Linux (Redhat/Debian)" },
-    { "name": "TypeScript" },
-    { "name": "React" },
-    { "name": "Next.js" },
-    { "name": "Angular" },
-    { "name": "MongoDB" },
-    { "name": "Flutter" },
-    { "name": "Figma" },
-    { "name": "C/C++" }
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Kubernetes"
+    },
+    {
+      "name": "Linux (Redhat/Debian)"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Next.js"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "MongoDB"
+    },
+    {
+      "name": "Flutter"
+    },
+    {
+      "name": "Figma"
+    },
+    {
+      "name": "C/C++"
+    }
   ],
   "languages": [
-    { "language": "Anglais", "fluency": "Courant" },
-    { "language": "Français", "fluency": "Courant" },
-    { "language": "Arabe", "fluency": "Langue maternelle" }
+    {
+      "language": "Anglais",
+      "fluency": "Courant"
+    },
+    {
+      "language": "Français",
+      "fluency": "Courant"
+    },
+    {
+      "language": "Arabe",
+      "fluency": "Langue maternelle"
+    }
   ]
 }

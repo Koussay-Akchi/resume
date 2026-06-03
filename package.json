@@ -5,11 +5,19 @@
   "private": true,
   "scripts": {
     "build": "npm run build:en && npm run build:fr",
-    "build:en": "resume export output/koussay_akchi_cv_english.pdf --resume resume.en.json --theme @jsonresume/jsonresume-theme-class",
-    "build:fr": "resume export output/koussay_akchi_cv_francais.pdf --resume resume.fr.json --theme @jsonresume/jsonresume-theme-class"
+    "build:en": "resume export output/koussay_akchi_cv_english.pdf --resume resume.en.json --theme sidebar",
+    "build:fr": "resume export output/koussay_akchi_cv_francais.pdf --resume resume.fr.json --theme sidebar"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@babel/register": "^7.29.7",
+    "@jsonresume/jsonresume-theme-class": "latest",
+    "jsonresume-theme-sidebar": "file:theme-sidebar/package",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "resume-cli": "^3.0.8",
-    "@jsonresume/jsonresume-theme-class": "latest"
+    "styled-components": "^6.4.2"
   }
 }
