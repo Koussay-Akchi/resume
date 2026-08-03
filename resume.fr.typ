@@ -84,6 +84,16 @@ Je suis un développeur de logiciels passionné avec un fort intérêt pour le d
 = EXPÉRIENCE PROFESSIONNELLE
 
 #experience-item(
+  company: "Next Step",
+  position: "Stage en Ingénierie Cloud",
+  date: "Juin 2026 - Août 2026",
+  description: [
+    Conception et déploiement d'une passerelle API & IA unifiée sur Apache APISIX, centralisant la gestion des API et l'orchestration des services IA dans un point d'entrée cloud-native sur Kubernetes. Mise en place de l'isolation multi-tenant, de l'authentification JWT/key-auth, du rate limiting distribué via Redis, et du traffic splitting canary. Implémentation d'une couche d'orchestration IA supportant OpenAI, Claude, Gemini et DeepSeek avec métering basé sur les tokens, masquage PII via des plugins Lua personnalisés, et un pipeline de facturation Kafka → Elasticsearch. Livraison d'un portail self-service React + Node.js avec RBAC, tableaux de bord d'observabilité (Prometheus, Grafana, Jaeger), et conduite de tests de chaos avec Chaos Mesh pour valider l'isolation entre plan de contrôle et plan de données.
+  ],
+  tech: ("Apache APISIX", "Helm", "Kubernetes", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "OpenTelemetry", "Redis", "Node.js", "React", "PostgreSQL")
+)
+
+#experience-item(
   company: "OpkodeLabs",
   position: "Ingénieur Full Stack (Temps partiel)",
   date: "Juillet 2025 - Présent",

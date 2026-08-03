@@ -84,6 +84,16 @@ I'm a passionate Full Stack Software Engineer with a strong interest in the conc
 = WORK EXPERIENCE
 
 #experience-item(
+  company: "Next Step",
+  position: "Cloud Engineering Internship",
+  date: "June 2026 - August 2026",
+  description: [
+    Designed and deployed a unified API & AI Gateway platform on Apache APISIX, consolidating API management and AI service orchestration into a single cloud-native entry point on Kubernetes. Built multi-tenant isolation, JWT/key-auth authentication, Redis-backed rate limiting, and canary traffic splitting. Implemented an AI orchestration layer supporting OpenAI, Claude, Gemini, and DeepSeek with token-based metering, PII masking via custom Lua plugins, and a Kafka → Elasticsearch billing pipeline. Shipped a React + Node.js self-service Portal with RBAC, observability dashboards (Prometheus, Grafana, Jaeger), and conducted chaos engineering with Chaos Mesh to validate control/data plane failure isolation.
+  ],
+  tech: ("Apache APISIX", "Helm", "Kubernetes", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "OpenTelemetry", "Redis", "Node.js", "React", "PostgreSQL")
+)
+
+#experience-item(
   company: "OpkodeLabs",
   position: "Full Stack Software Engineer (Part time)",
   date: "July 2025 - Present",
