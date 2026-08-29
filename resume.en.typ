@@ -42,9 +42,11 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
     Designed and deployed a unified API and AI Gateway platform on Apache APISIX, centralizing API management, load balancing, and AI orchestration in a Kubernetes-native environment.
   ],
   highlights: (
-    "Built AI orchestration for OpenAI, Claude, Gemini, and DeepSeek with token usage tracking and PII masking.",
-    "Implemented multi-tenant isolation, JWT and key authentication, Redis-based rate limiting, load balancing, and canary routing strategies.",
-    "Delivered a React and Node.js self-service portal with RBAC, observability dashboards, and monitoring coverage.",
+    "Built AI gateway orchestration with multi-model routing (ai-proxy-multi), prompt templating and decoration, dynamic request rewrites, and PII masking / data anonymization guardrails.",
+    "Configured edge traffic management using distributed rate/connection limiting, traffic splitting, circuit breaking (api-breaker), IP/consumer restrictions, and request mirroring.",
+    "Implemented payload transformations, gRPC transcoding, response rewrites, and schema validation with custom Lua and serverless functions.",
+    "Streamlined observability and centralized audit streaming via OpenTelemetry, Prometheus metrics, Kafka, and Elasticsearch logging pipelines.",
+    "Delivered a React and Node.js self-service portal with RBAC and monitoring dashboards.",
     "Validated service resilience using chaos engineering and automated CI/CD deployment pipelines across cloud-native environments.",
   ),
   tools: ("Apache APISIX", "Kubernetes", "Helm", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "Redis", "Node.js", "React", "PostgreSQL"),
