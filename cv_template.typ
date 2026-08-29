@@ -1,152 +1,124 @@
 #let resume-theme(
-  font: "Segoe UI",
-  font-size: 10pt,
-  sidebar-width: 6.8cm,
-  sidebar-color: rgb("1e3a52"),
-  sidebar-text-color: white,
-  main-color: rgb("ffffff"),
-  main-text-color: rgb("2d3748"),
-  accent-color: rgb("1e3a52"),
-  sidebar-content: [],
-  body
+  name: "",
+  title: "",
+  email: "",
+  phone: "",
+  location: "",
+  website: "",
+  linkedin: "",
+  github: "",
+  body,
 ) = {
   set page(
     paper: "a4",
-    margin: (left: sidebar-width + 0.8cm, right: 1.2cm, top: 1.2cm, bottom: 1.2cm),
-    background: [
-      #place(
-        top + left,
-        rect(
-          fill: sidebar-color,
-          width: sidebar-width,
-          height: 100%,
-        )
-      )
-      #place(
-        top + left,
-        dx: 0.6cm,
-        dy: 1.2cm,
-        block(
-          width: sidebar-width - 1.2cm,
-          [
-            #set text(fill: sidebar-text-color, font: font, size: font-size, hyphenate: false)
-            #sidebar-content
-          ]
-        )
-      )
-    ]
+    margin: (left: 1.2cm, right: 1.2cm, top: 1.1cm, bottom: 1.0cm),
   )
-
-  set text(
-    font: font,
-    size: font-size,
-    fill: main-text-color,
-  )
-  
-  set par(justify: true, leading: 0.65em)
+  set text(font: "Arial", size: 10pt, fill: rgb("1f1f1f"))
+  set par(justify: true, leading: 0.55em)
+  set list(indent: 1em)
 
   show heading: it => [
-    #v(0.3cm)
-    #text(fill: accent-color, weight: "bold", size: 1.15em)[#it.body]
-    #v(0.1cm)
-    #line(length: 100%, stroke: 1.5pt + accent-color)
-    #v(0.2cm)
+    #text(size: 11pt, weight: "bold", fill: rgb("111111"))[#it.body]
+    #v(0.2em)
+    #line(length: 100%, stroke: 0.6pt + rgb("7a7a7a"))
+    #v(0.35em)
   ]
 
   body
 }
 
-#let sidebar-heading(title) = {
-  v(0.4cm)
-  text(weight: "bold", size: 1.1em)[#title]
-  v(0.1cm)
-  line(length: 100%, stroke: 0.8pt + white.darken(20%))
-  v(0.15cm)
+#let section(title) = {
+  heading(level: 2, outlined: false, title)
 }
 
-#let contact-item(icon, text-val, link-url: none) = {
-  grid(
-    columns: (14pt, 1fr),
-    gutter: 4pt,
-    align(center + horizon)[#icon],
-    align(left + horizon)[
-      #if link-url != none {
-        link(link-url)[#text-val]
-      } else {
-        text-val
-      }
-    ]
-  )
-  v(3pt)
+#let contact-line(
+  email: "",
+  phone: "",
+  location: "",
+  website: "",
+  linkedin: "",
+  github: "",
+) = {
+  let items = ()
+  if email != "" { items.push([Email: #email]) }
+  if phone != "" { items.push([Phone: #phone]) }
+  if location != "" { items.push([Location: #location]) }
+  if website != "" { items.push([Website: #website]) }
+  if linkedin != "" { items.push([LinkedIn: #linkedin]) }
+  if github != "" { items.push([GitHub: #github]) }
+
+  if items.len() > 0 {
+    text(size: 9pt)[#items.join(" | ")]
+  }
 }
 
 #let experience-item(
   company: "",
   position: "",
   date: "",
-  description: [],
-  tech: ()
+  location: none,
+  summary: [],
+  highlights: (),
+  tools: (),
 ) = {
-  block(width: 100%, breakable: false)[
+  block(width: 100%)[
     #grid(
       columns: (1fr, auto),
-      text(weight: "bold", size: 1.05em)[#position],
-      text(style: "italic", fill: rgb("718096"))[#date]
+      align(left)[#text(weight: "bold", size: 10.5pt)[#position]],
+      align(right)[#text(size: 9pt, fill: rgb("555555"))[#date]],
     )
-    #v(-2pt)
-    #text(weight: "medium", fill: rgb("4a5568"))[#company]
-    #v(2pt)
-    #description
-    #if tech.len() > 0 [
-      #v(2pt)
-      #text(size: 0.9em, style: "italic", fill: rgb("718096"))[
-        Technologies: #tech.join(", ")
-      ]
-    ]
-    #v(0.4cm)
-  ]
-}
 
-#let project-item(
-  name: "",
-  url: none,
-  description: [],
-  tech: ()
-) = {
-  block(width: 100%, breakable: false)[
-    #grid(
-      columns: (1fr, auto),
-      if url != none {
-        link(url)[#text(weight: "bold", size: 1.05em)[#name]]
-      } else {
-        text(weight: "bold", size: 1.05em)[#name]
-      },
-      if url != none {
-        text(size: 0.9em, fill: rgb("718096"))[#url]
-      }
-    )
-    #v(2pt)
-    #description
-    #if tech.len() > 0 [
-      #v(2pt)
-      #text(size: 0.9em, style: "italic", fill: rgb("718096"))[
-        Technologies: #tech.join(", ")
+    #if company != "" [
+      #text(size: 9.5pt, weight: "semibold")[#company]
+      #if location != none [ | #location]
+    ]
+
+    #if summary != [] [
+      #v(0.25em)
+      #summary
+    ]
+
+    #if highlights.len() > 0 [
+      #v(0.25em)
+      #for item in highlights [
+        - #item
       ]
     ]
-    #v(0.4cm)
+
+    #if tools.len() > 0 [
+      #v(0.25em)
+      #text(weight: "bold", size: 8.8pt)[Tools: ]
+      #text(size: 8.8pt)[#tools.join(", ")]
+    ]
+
+    #v(0.55em)
   ]
 }
 
 #let education-item(
   institution: "",
-  area: "",
-  studyType: "",
-  date: ""
+  degree: "",
+  date: "",
+  location: none,
+  details: [],
 ) = {
   block(width: 100%)[
-    #text(weight: "bold")[#institution] \
-    #text(size: 0.9em)[#studyType in #area] \
-    #text(size: 0.85em, style: "italic", fill: white.darken(10%))[#date]
-    #v(0.25cm)
+    #grid(
+      columns: (1fr, auto),
+      align(left)[#text(weight: "bold", size: 10.5pt)[#degree]],
+      align(right)[#text(size: 9pt, fill: rgb("555555"))[#date]],
+    )
+    #text(size: 9.5pt)[#institution]
+    #if details != [] [
+      #v(0.25em)
+      #details
+    ]
+    #v(0.4em)
   ]
+}
+
+#let skill-list(items) = {
+  if items.len() > 0 {
+    text(size: 9.5pt)[#items.join(" • ")]
+  }
 }

@@ -1,165 +1,144 @@
-#import "cv_template.typ": resume-theme, sidebar-heading, contact-item, experience-item, project-item, education-item
-
-#let sidebar = [
-  #align(center)[
-    #if calc.even(2) {
-      block(
-        width: 3.5cm,
-        height: 3.5cm,
-        radius: 50%,
-        clip: true,
-        stroke: 2pt + white,
-        image("photo.jpg", width: 100%, height: 100%, fit: "cover")
-      )
-    }
-    #v(0.3cm)
-    #text(size: 1.4em, weight: "bold")[Koussay Akchi] \
-    #v(0.1cm)
-    #text(size: 1.0em, style: "italic", fill: white.darken(10%))[Ingénieur Full Stack]
-  ]
-
-  #v(0.5cm)
-
-  #sidebar-heading("CONTACT")
-  #contact-item(
-    "✉",
-    "akchikoussay@gmail.com",
-    link-url: "mailto:akchikoussay@gmail.com"
-  )
-  #contact-item(
-    "📞",
-    "40 862 777"
-  )
-  #contact-item(
-    "📍",
-    "Tunis, Tunisie"
-  )
-
-  #sidebar-heading("LIENS")
-  #contact-item(
-    "🔗",
-    "koussay.tn",
-    link-url: "https://koussay.tn"
-  )
-  #contact-item(
-    image("github-icon.svg", width: 11pt, height: 11pt),
-    "github.com/Koussay-Akchi",
-    link-url: "https://github.com/Koussay-Akchi"
-  )
-  #contact-item(
-    "in",
-    "LinkedIn",
-    link-url: "https://www.linkedin.com/in/koussay-akchi-782765274/"
-  )
-
-  #sidebar-heading("COMPÉTENCES")
-  #text(weight: "bold")[Backend] \
-  Node.js, Java, Python, C \
-  #v(0.25cm)
-  #text(weight: "bold")[Frontend] \
-  React, Next.js, Angular, Flutter \
-  #v(0.25cm)
-  #text(weight: "bold")[DevOps] \
-  Docker, Kubernetes, Terraform, Ansible, Azure, Linux (Redhat/Debian), MongoDB
-
-  #sidebar-heading("LANGUES")
-  #grid(
-    columns: (1fr, auto),
-    row-gutter: 5pt,
-    "Anglais", [Courant],
-    "Français", [Courant],
-    "Arabe", [Langue maternelle]
-  )
-]
+#import "cv_template.typ": resume-theme, section, contact-line, experience-item, education-item, skill-list
 
 #show: resume-theme.with(
-  font: "Segoe UI",
-  font-size: 8pt,
-  sidebar-content: sidebar
+  name: "Koussay Akchi",
+  title: "Ingénieur Full Stack",
+  email: "akchikoussay@gmail.com",
+  phone: "+216 40 862 777",
+  location: "Tunis, Tunisie",
+  website: "koussay.tn",
+  linkedin: "linkedin.com/in/koussay-akchi-782765274",
+  github: "github.com/Koussay-Akchi",
 )
 
-= PROFIL
-Je suis un développeur de logiciels passionné avec un fort intérêt pour le développement web et les technologies open-source. Ma passion pour l'apprentissage se reflète dans les projets que je développe et que je partage sur mon site Web et GitHub.
+#align(center)[
+  #text(size: 22pt, weight: "bold")[Koussay Akchi]
+  #linebreak()
+  #text(size: 11pt, fill: rgb("3a3a3a"))[Ingénieur Full Stack]
+]
 
-= EXPÉRIENCE PROFESSIONNELLE
+#v(0.35em)
+#contact-line(
+  email: "akchikoussay@gmail.com",
+  phone: "+216 40 862 777",
+  location: "Tunis, Tunisie",
+  website: "koussay.tn",
+  linkedin: "linkedin.com/in/koussay-akchi-782765274",
+  github: "github.com/Koussay-Akchi",
+)
+
+#section("Profil")
+
+Je suis un ingénieur logiciel full stack spécialisé dans le développement d'applications web robustes, les systèmes cloud et les solutions d'automatisation. J'aime travailler sur l'ensemble de la chaîne de valeur, de l'architecture backend aux interfaces utilisateur, et j'améliore continuellement mes compétences à travers des projets concrets et des missions techniques.
+
+#section("Expérience")
 
 #experience-item(
   company: "Next Step",
-  position: "Stage en Ingénierie Cloud",
+  position: "Stagiaire en ingénierie cloud",
   date: "Juin 2026 - Août 2026",
-  description: [
-    Conception et déploiement d'une passerelle API & IA unifiée sur Apache APISIX, centralisant la gestion des API et l'orchestration des services IA dans un point d'entrée cloud-native sur Kubernetes. Mise en place de l'isolation multi-tenant, de l'authentification JWT/key-auth, du rate limiting distribué via Redis, et du traffic splitting canary. Implémentation d'une couche d'orchestration IA supportant OpenAI, Claude, Gemini et DeepSeek avec métering basé sur les tokens, masquage PII via des plugins Lua personnalisés, et un pipeline de facturation Kafka → Elasticsearch. Livraison d'un portail self-service React + Node.js avec RBAC, tableaux de bord d'observabilité (Prometheus, Grafana, Jaeger), et conduite de tests de chaos avec Chaos Mesh pour valider l'isolation entre plan de contrôle et plan de données.
+  location: "Tunisie",
+  summary: [
+    Conception et déploiement d'une plateforme de passerelle API et IA sur Apache APISIX, centralisant la gestion des API et l'orchestration des services d'IA dans un environnement Kubernetes.
   ],
-  tech: ("Apache APISIX", "Helm", "Kubernetes", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "OpenTelemetry", "Redis", "Node.js", "React", "PostgreSQL")
+  highlights: (
+    "Mise en place d'une isolation multi-tenant, d'une authentification JWT et clé, ainsi que d'un rate limiting basé sur Redis.",
+    "Création d'une couche d'orchestration IA pour OpenAI, Claude, Gemini et DeepSeek avec mesure de tokens et masquage des données sensibles.",
+    "Livraison d'un portail self-service React et Node.js avec RBAC, tableaux de bord et surveillance d'infrastructure.",
+  ),
+  tools: ("Apache APISIX", "Kubernetes", "Helm", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "Redis", "Node.js", "React", "PostgreSQL"),
 )
 
 #experience-item(
   company: "OpkodeLabs",
-  position: "Ingénieur Full Stack (Temps partiel)",
-  date: "Juillet 2025 - Présent",
-  description: [
-    Développement de WattLink, une plateforme full-stack multi-tenant de gestion de bornes de recharge pour véhicules électriques (EVSE), basée sur le protocole OCPP 1.6. Conception d'un système de supervision en temps réel utilisant Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO et des tableaux de bord Grafana, permettant aux opérateurs de gérer à distance les sessions de recharge, de configurer une tarification dynamique et de suivre les données de télémétrie sur des réseaux multi-tenant.
+  position: "Ingénieur logiciel full stack",
+  date: "Juillet 2025 - Aujourd'hui",
+  location: "Tunisie",
+  summary: [
+    Développement de WattLink, une plateforme de gestion de bornes de recharge EV multi-tenant basée sur le protocole OCPP 1.6.
   ],
-  tech: ("OCPP 1.6", "Laravel", "Python", "Redis", "Docker", "Socket.IO", "Grafana")
+  highlights: (
+    "Mise en place d'un suivi en temps réel des stations avec Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO et Grafana.",
+    "Implémentation de workflows d'administration pour le contrôle distant et la supervision des sessions.",
+  ),
+  tools: ("Laravel", "Python", "Redis", "Docker", "Socket.IO", "Grafana", "PostgreSQL"),
 )
 
 #experience-item(
   company: "HexaFlow",
-  position: "Ingénieur Full Stack (Temps plein)",
-  date: "Févr 2025 - Déc 2025",
-  description: [
-    Développement des applications web dynamiques en utilisant NodeJS et Java et optimisation de l'architecture des systèmes en intégrant des solutions cloud avec Docker. Collaboration dans des équipes agiles pour livrer des fonctionnalités de qualité dans des délais serrés.
+  position: "Ingénieur logiciel full stack",
+  date: "Févr. 2025 - Déc. 2025",
+  location: "Tunisie",
+  summary: [
+    Contribution au développement d'applications web dynamiques avec React, Next.js, Node.js et Java, tout en optimisant l'architecture système avec Docker et des pratiques de déploiement cloud.
   ],
-  tech: ("React", "Next.js", "Node.js", "JavaFX", "Docker", "Terraform", "Azure")
+  highlights: (
+    "Livraison de fonctionnalités dans des équipes agiles avec un focus sur la qualité et la maintenabilité.",
+    "Participation à l'industrialisation des déploiements avec Docker et outils Azure.",
+  ),
+  tools: ("React", "Next.js", "Node.js", "Java", "Docker", "Terraform", "Azure"),
 )
 
 #experience-item(
   company: "Wecraft",
-  position: "Ingénieur Full Stack (Temps partiel)",
-  date: "Juin 2024 - Janv 2025",
-  description: [
-    Développement et maintenance d'un CRM complet pour les laboratoires pharmaceutiques. Mon rôle consiste à mettre en œuvre des interfaces front-end, à développer des fonctionnalités back-end et à concevoir des tests approfondis pour les deux.
+  position: "Ingénieur logiciel full stack",
+  date: "Juin 2024 - Janv. 2025",
+  location: "Tunisie",
+  summary: [
+    Développement et maintenance d'une plateforme CRM pour laboratoires pharmaceutiques, couvrant interfaces frontend, services backend et couverture de tests.
   ],
-  tech: ("React", "Quarkus Java", "Docker", "JWT", "Postgres", "MongoDB")
+  highlights: (
+    "Mise en œuvre de workflows utilisateurs et de logique métier pour les opérations de laboratoire.",
+    "Validation de la qualité avec des tests backend et frontend pour garantir la stabilité des livraisons.",
+  ),
+  tools: ("React", "Quarkus", "Docker", "JWT", "PostgreSQL", "MongoDB"),
 )
 
 #experience-item(
   company: "Wecraft",
   position: "Stage de fin d'études",
-  date: "Janv 2024 - Juin 2024",
-  description: [
-    Durant mon stage, j'ai acquis une expérience pratique dans le développement et la maintenance d'applications web, en contribuant à la fois aux tâches front-end et back-end.
+  date: "Janv. 2024 - Juin 2024",
+  location: "Tunisie",
+  summary: [
+    Accompagnement sur le développement et la maintenance d'applications web, avec contribution sur les tâches frontend et backend.
   ],
-  tech: ("React", "Quarkus Java", "Docker", "JWT", "Postgres", "MongoDB")
+  tools: ("React", "Quarkus", "Docker", "JWT", "PostgreSQL", "MongoDB"),
 )
 
 #experience-item(
   company: "Alliance Technologie",
   position: "Stage d'été",
-  date: "Juin 2023 - Juil 2023",
-  description: [
-    Développement d'un microservice et un API pour la gestion des bons d'achats électroniques pour les clients de la SNDP.
+  date: "Juin 2023 - Juillet 2023",
+  location: "Tunisie",
+  summary: [
+    Développement d'un microservice et d'une API pour la gestion des bons d'achat électroniques destinés aux clients de la SNDP.
   ],
-  tech: ("C#", "ASP.NET", "Java", "Postgres")
+  tools: ("C#", "ASP.NET", "Java", "PostgreSQL"),
 )
 
-= ÉDUCATION
+#section("Formation")
 
-#experience-item(
-  company: "ESPRIT",
-  position: "Diplôme d'Ingénieur en Ingénierie Informatique",
-  date: "2024 - Présent",
-  description: []
+#education-item(
+  institution: "ESPRIT",
+  degree: "Diplôme d'ingénieur en ingénierie logicielle",
+  date: "2024 - Aujourd'hui",
 )
 
-#experience-item(
-  company: "ISTIC Borj Cedria",
-  position: "Licence en Informatique (GLSI)",
+#education-item(
+  institution: "ISTIC Borj Cedria",
+  degree: "Licence en informatique (GLSI)",
   date: "2021 - 2024",
-  description: []
 )
 
+#section("Compétences")
 
-= CERTIFICATS
-- *CCNA: Switching, Routing, and Wireless Essentials* - Cisco 
-#link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")[https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9]
+#skill-list(("Node.js", "Java", "Python", "TypeScript", "React", "Next.js", "Angular", "Docker", "Kubernetes", "Terraform", "Linux", "Azure", "MongoDB", "PostgreSQL", "C", "SQL"))
+
+#section("Langues")
+
+#skill-list(("Anglais: Courant", "Français: Courant", "Arabe: Langue maternelle"))
+
+#section("Certifications")
+
+- CCNA: Switching, Routing, and Wireless Essentials — Cisco
+- https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9
