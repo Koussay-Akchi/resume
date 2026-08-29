@@ -39,12 +39,13 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
   date: "Jun 2026 - Aug 2026",
   location: "Tunisia",
   summary: [
-    Designed and deployed a unified API and AI Gateway platform on Apache APISIX, centralizing API management and AI service orchestration in a Kubernetes environment. Implemented multi-tenant isolation, JWT and key-based authentication, Redis-backed rate limiting, and canary traffic splitting.
+    Designed and deployed a unified API and AI Gateway platform on Apache APISIX, centralizing API management and AI orchestration in a Kubernetes-native environment.
   ],
   highlights: (
-    "Built an AI orchestration layer supporting OpenAI, Claude, Gemini, and DeepSeek with token metering and PII masking.",
-    "Delivered a React and Node.js self-service portal with RBAC, monitoring dashboards, and observability tooling.",
-    "Validated resilience with chaos testing and deployment automation across cloud-native services.",
+    "Built AI orchestration for OpenAI, Claude, Gemini, and DeepSeek with token usage tracking and PII masking.",
+    "Implemented multi-tenant isolation, JWT and key authentication, Redis-based rate limiting, and canary routing strategies.",
+    "Delivered a React and Node.js self-service portal with RBAC, observability dashboards, and monitoring coverage.",
+    "Validated service resilience using chaos engineering and cloud-native deployment automation across APIs and data pipelines.",
   ),
   tools: ("Apache APISIX", "Kubernetes", "Helm", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "Redis", "Node.js", "React", "PostgreSQL"),
 )
@@ -55,11 +56,13 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
   date: "Jul 2025 - Present",
   location: "Tunisia",
   summary: [
-    Developed WattLink, a multi-tenant EV charging management platform built on the OCPP 1.6 protocol. The platform enables operators to monitor charge sessions, apply dynamic pricing, and manage telemetry across distributed networks.
+    Developed WattLink, a multi-tenant EV charging management platform built on the OCPP 1.6 protocol, with real-time visibility into station status, pricing, sessions, and telemetry data.
   ],
   highlights: (
-    "Built real-time charge station monitoring with Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO, and Grafana.",
-    "Implemented admin workflows for remote control, session tracking, and operational visibility.",
+    "Built a real-time monitoring system using Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO, and Grafana.",
+    "Implemented remote operator controls for charging sessions, pricing updates, and live telemetry dashboards.",
+    "Designed secure multi-tenant workflows to isolate data and operations across customer networks.",
+    "Delivered production-ready infrastructure and tooling with Python, Docker, and reliable service orchestration.",
   ),
   tools: ("Laravel", "Python", "Redis", "Docker", "Socket.IO", "Grafana", "PostgreSQL"),
 )
@@ -70,11 +73,13 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
   date: "Feb 2025 - Dec 2025",
   location: "Tunisia",
   summary: [
-    Contributed to dynamic web applications using React, Next.js, Node.js, and Java, while optimizing system architecture with Docker and cloud deployment patterns.
+    Developed dynamic web applications with React, Next.js, Node.js, and Java while improving system architecture with containerized deployments and cloud-ready patterns.
   ],
   highlights: (
-    "Delivered features in agile teams with a focus on quality, maintainability, and delivery speed.",
-    "Helped modernize deployment and infrastructure workflows using Docker and Azure-based tooling.",
+    "Delivered customer-facing features in agile teams with a focus on maintainability and timely releases.",
+    "Improved deployment workflows by integrating Docker and cloud infrastructure tooling.",
+    "Enhanced frontend performance, state management, and component modularity for seamless user experiences.",
+    "Integrated automated CI/CD checks and containerized environments to ensure reliable multi-service deployments.",
   ),
   tools: ("React", "Next.js", "Node.js", "Java", "Docker", "Terraform", "Azure"),
 )
@@ -85,11 +90,13 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
   date: "Jun 2024 - Jan 2025",
   location: "Tunisia",
   summary: [
-    Developed and maintained a CRM platform for pharmaceutical laboratories, covering frontend interfaces, backend services, and test coverage across both layers.
+    Developed and maintained a CRM platform for pharmaceutical laboratories, covering both the user interface and backend business logic for research, sales, and compliance workflows.
   ],
   highlights: (
-    "Implemented user-facing workflows and enterprise business logic for laboratory operations.",
-    "Designed and validated backend and frontend test coverage to support stable releases.",
+    "Implemented front-end interfaces for laboratory operations and internal data entry flows.",
+    "Built backend services and business rules to support product, customer, and order management.",
+    "Added automated testing across the stack to reduce regressions and improve release stability.",
+    "Engineered robust RESTful endpoints with role-based access control and token lifecycle verification.",
   ),
   tools: ("React", "Quarkus", "Docker", "JWT", "PostgreSQL", "MongoDB"),
 )
@@ -100,8 +107,14 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
   date: "Jan 2024 - Jun 2024",
   location: "Tunisia",
   summary: [
-    Gained practical experience in developing and maintaining web applications, covering both frontend and backend tasks in a team environment.
+    Worked on the CRM for pharmaceutical laboratories during my internship, contributing across the stack while learning production-grade web app architecture and development workflows.
   ],
+  highlights: (
+    "Participated in the design and initial implementation of the application architecture.",
+    "Contributed to both front-end features and back-end services for core business processes.",
+    "Collaborated with the team to improve code quality, maintainability, and deployment practices.",
+    "Structured data schemas and storage strategies across relational and NoSQL databases for laboratory workflows.",
+  ),
   tools: ("React", "Quarkus", "Docker", "JWT", "PostgreSQL", "MongoDB"),
 )
 
@@ -113,6 +126,12 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
   summary: [
     Developed a microservice and API for managing electronic purchase vouchers for SNDP customers.
   ],
+  highlights: (
+    "Built backend logic for voucher lifecycle management and validation flows.",
+    "Integrated application services with secure data handling and business rules.",
+    "Collaborated on API design and service integration to support customer workflows.",
+    "Automated database migrations and transactional queries ensuring strict financial integrity for transactions.",
+  ),
   tools: ("C#", "ASP.NET", "Java", "PostgreSQL"),
 )
 

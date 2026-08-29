@@ -42,9 +42,10 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
     Conception et déploiement d'une plateforme de passerelle API et IA sur Apache APISIX, centralisant la gestion des API et l'orchestration des services d'IA dans un environnement Kubernetes.
   ],
   highlights: (
-    "Mise en place d'une isolation multi-tenant, d'une authentification JWT et clé, ainsi que d'un rate limiting basé sur Redis.",
     "Création d'une couche d'orchestration IA pour OpenAI, Claude, Gemini et DeepSeek avec mesure de tokens et masquage des données sensibles.",
+    "Mise en place d'une isolation multi-tenant, d'une authentification JWT et clé, ainsi qu'un rate limiting basé sur Redis.",
     "Livraison d'un portail self-service React et Node.js avec RBAC, tableaux de bord et surveillance d'infrastructure.",
+    "Validation de la résilience grâce au chaos engineering et à l'automatisation des déploiements dans des pipelines cloud-native.",
   ),
   tools: ("Apache APISIX", "Kubernetes", "Helm", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "Redis", "Node.js", "React", "PostgreSQL"),
 )
@@ -55,11 +56,13 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
   date: "Juillet 2025 - Aujourd'hui",
   location: "Tunisie",
   summary: [
-    Développement de WattLink, une plateforme de gestion de bornes de recharge EV multi-tenant basée sur le protocole OCPP 1.6.
+    Développement de WattLink, une plateforme de gestion de bornes de recharge EV multi-tenant basée sur le protocole OCPP 1.6, avec visibilité en temps réel sur l'état des stations, les tarifs, les sessions et la télémétrie.
   ],
   highlights: (
-    "Mise en place d'un suivi en temps réel des stations avec Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO et Grafana.",
-    "Implémentation de workflows d'administration pour le contrôle distant et la supervision des sessions.",
+    "Mise en place d'un système de supervision en temps réel avec Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO et Grafana.",
+    "Implémentation de contrôles d'administration à distance pour la gestion des sessions de charge et des mises à jour de tarification.",
+    "Conception de workflows multi-tenant sécurisés pour isoler les données et les opérations entre clients.",
+    "Livraison d'une infrastructure et d'outils de production fiables avec Python, Docker et orchestration de services.",
   ),
   tools: ("Laravel", "Python", "Redis", "Docker", "Socket.IO", "Grafana", "PostgreSQL"),
 )
@@ -70,11 +73,13 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
   date: "Févr. 2025 - Déc. 2025",
   location: "Tunisie",
   summary: [
-    Contribution au développement d'applications web dynamiques avec React, Next.js, Node.js et Java, tout en optimisant l'architecture système avec Docker et des pratiques de déploiement cloud.
+    Développement d'applications web dynamiques avec React, Next.js, Node.js et Java, tout en améliorant l'architecture système grâce à des déploiements conteneurisés et à des pratiques cloud-native.
   ],
   highlights: (
-    "Livraison de fonctionnalités dans des équipes agiles avec un focus sur la qualité et la maintenabilité.",
-    "Participation à l'industrialisation des déploiements avec Docker et outils Azure.",
+    "Livraison de fonctionnalités orientées client dans des équipes agiles, avec un focus sur la maintenabilité et les livraisons dans les délais.",
+    "Amélioration des workflows de déploiement via Docker et des outils d'infrastructure cloud.",
+    "Amélioration des performances frontend, de la gestion d'état et de la modularité des composants pour des interfaces fluides.",
+    "Intégration de vérifications CI/CD automatisées et d'environnements conteneurisés pour sécuriser les déploiements multi-services.",
   ),
   tools: ("React", "Next.js", "Node.js", "Java", "Docker", "Terraform", "Azure"),
 )
@@ -85,11 +90,13 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
   date: "Juin 2024 - Janv. 2025",
   location: "Tunisie",
   summary: [
-    Développement et maintenance d'une plateforme CRM pour laboratoires pharmaceutiques, couvrant interfaces frontend, services backend et couverture de tests.
+    Développement et maintenance d'une plateforme CRM pour laboratoires pharmaceutiques, couvrant à la fois l'interface utilisateur et la logique métier backend pour les workflows de recherche, de vente et de conformité.
   ],
   highlights: (
-    "Mise en œuvre de workflows utilisateurs et de logique métier pour les opérations de laboratoire.",
-    "Validation de la qualité avec des tests backend et frontend pour garantir la stabilité des livraisons.",
+    "Mise en œuvre d'interfaces front-end pour les opérations de laboratoire et les flux de saisie interne.",
+    "Création de services backend et de règles métier pour la gestion des produits, clients et commandes.",
+    "Ajout de tests automatisés sur l'ensemble de la stack pour réduire les régressions et améliorer la stabilité des livraisons.",
+    "Conception de points d'API REST robustes avec contrôle d'accès basé sur les rôles et vérification du cycle de vie des jetons.",
   ),
   tools: ("React", "Quarkus", "Docker", "JWT", "PostgreSQL", "MongoDB"),
 )
@@ -100,8 +107,14 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
   date: "Janv. 2024 - Juin 2024",
   location: "Tunisie",
   summary: [
-    Accompagnement sur le développement et la maintenance d'applications web, avec contribution sur les tâches frontend et backend.
+    Travail sur le CRM des laboratoires pharmaceutiques pendant mon stage, en contribuant sur l'ensemble de la stack tout en apprenant les bonnes pratiques de conception et de développement d'applications web en production.
   ],
+  highlights: (
+    "Participation à la conception et à la mise en œuvre initiale de l'architecture de l'application.",
+    "Contribution aux fonctionnalités front-end et aux services backend pour les processus métier critiques.",
+    "Collaboration avec l'équipe pour améliorer la qualité du code, la maintenabilité et les pratiques de déploiement.",
+    "Structuration des schémas de données et stratégies de stockage entre bases relationnelles et NoSQL pour les opérations de laboratoire.",
+  ),
   tools: ("React", "Quarkus", "Docker", "JWT", "PostgreSQL", "MongoDB"),
 )
 
@@ -113,6 +126,12 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
   summary: [
     Développement d'un microservice et d'une API pour la gestion des bons d'achat électroniques destinés aux clients de la SNDP.
   ],
+  highlights: (
+    "Mise en place de la logique backend pour la gestion du cycle de vie et la validation des bons.",
+    "Intégration des services applicatifs avec une gestion sécurisée des données et des règles métier.",
+    "Collaboration sur la conception des API et l'intégration des services pour soutenir les workflows clients.",
+    "Automatisation des migrations de base de données et des requêtes transactionnelles garantissant l'intégrité stricte des opérations.",
+  ),
   tools: ("C#", "ASP.NET", "Java", "PostgreSQL"),
 )
 

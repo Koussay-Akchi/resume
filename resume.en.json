@@ -32,9 +32,12 @@
       "position": "Full Stack Web Developer",
       "startDate": "2025-07",
       "endDate": "",
-      "summary": "Developed WattLink, a full-stack multi-tenant EV charging station management platform, built on the OCPP 1.6 protocol. Engineered a real-time monitoring system using Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO, and Grafana dashboards, enabling operators to remotely manage charging sessions, configure dynamic pricing, and track telemetry data across multi-tenant networks.",
+      "summary": "Developed WattLink, a multi-tenant EV charging management platform with Laravel, PostgreSQL, Redis, Socket.IO, Docker, and Grafana, enabling operators to monitor station status, configure pricing, and track telemetry.",
       "highlights": [
-        "OCPP 1.6, Laravel, Python, Redis, Docker, Socket.IO, Grafana"
+        "Built a real-time monitoring system with Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO, and Grafana.",
+        "Implemented remote control workflows for charging sessions, pricing updates, and operational visibility.",
+        "Designed secure multi-tenant patterns to isolate customer data and service operations.",
+        "Delivered production-ready infrastructure and tooling with Python and Docker orchestration."
       ]
     },
     {
@@ -42,9 +45,12 @@
       "position": "Full Stack Web Developer",
       "startDate": "2025-02",
       "endDate": "2025-12",
-      "summary": "Developing dynamic web applications using NodeJS, React and Java. Optimizing system architecture by integrating Docker solutions. Collaborated on agile teams to deliver quality features within tight deadlines.",
+      "summary": "Developed dynamic web applications with React, Next.js, Node.js, Java, Docker, Terraform, and Azure while improving system architecture and cloud deployment patterns.",
       "highlights": [
-        "Technologies: React, Next.js, Node.js, JavaFX, Docker"
+        "Delivered customer-facing features in agile teams with a focus on maintainability and rapid releases.",
+        "Improved deployment workflows by integrating Docker and cloud infrastructure automation.",
+        "Modernized frontend and backend interactions to provide a smoother user experience.",
+        "Worked across React, Next.js, Node.js, Java, Docker, Terraform, and Azure for scalable delivery."
       ]
     },
     {
@@ -52,9 +58,12 @@
       "position": "Full Stack Web Developer",
       "startDate": "2024-06",
       "endDate": "2025-01",
-      "summary": "Developing and maintaining a comprehensive CRM for pharmaceutical laboratories. My role includes implementing front-end interfaces, developing back-end functionalities, and designing thorough tests for both.",
+      "summary": "Developed and maintained a CRM platform for pharmaceutical laboratories with React, Quarkus, Docker, JWT, PostgreSQL, and MongoDB, covering both UI and backend workflows.",
       "highlights": [
-        "Technologies: React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+        "Implemented laboratory operations interfaces for data entry, workflows, and internal business processes.",
+        "Built backend services and rules for product, customer, and order management.",
+        "Added automated testing across the stack to reduce regressions and improve release stability.",
+        "Delivered a reliable SaaS workflow that supported research, sales, and compliance needs."
       ]
     },
     {
@@ -62,9 +71,12 @@
       "position": "End of Studies Internship",
       "startDate": "2024-01",
       "endDate": "2024-06",
-      "summary": "Gained hands-on experience in developing and maintaining web applications, contributing to both front-end and back-end tasks.",
+      "summary": "Worked on the CRM for pharmaceutical laboratories with React, Quarkus, Docker, JWT, PostgreSQL, and MongoDB, contributing across the stack while learning production-grade architecture.",
       "highlights": [
-        "Technologies: React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+        "Participated in the design and initial implementation of the application architecture.",
+        "Contributed to front-end features and back-end services for core business processes.",
+        "Collaborated with the team to improve code quality, maintainability, and deployment practices.",
+        "Used real-world SaaS patterns to support stable and scalable application development."
       ]
     },
     {
@@ -72,9 +84,12 @@
       "position": "End of Year Internship",
       "startDate": "2023-06",
       "endDate": "2023-07",
-      "summary": "Development of a microservice and an API for the management of electronic purchase vouchers for SNDP customers.",
+      "summary": "Developed a microservice and API for managing electronic purchase vouchers for SNDP customers using C#, ASP.NET, Java, and PostgreSQL.",
       "highlights": [
-        "Technologies: C#, ASP.NET, Java, Postgres"
+        "Built backend logic for voucher lifecycle management and validation flows.",
+        "Integrated application services with secure data handling and business rules.",
+        "Collaborated on API design and service integration for customer workflows.",
+        "Worked in a service-oriented environment focused on maintainable backend systems."
       ]
     }
   ],

@@ -32,9 +32,12 @@
       "position": "Développeur Web Full Stack",
       "startDate": "2025-07",
       "endDate": "",
-      "summary": "Développement de WattLink, une plateforme full-stack multi-tenant de gestion de bornes de recharge pour véhicules électriques (EVSE), basée sur le protocole OCPP 1.6. Conception d'un système de supervision en temps réel utilisant Laravel, PostgreSQL, Redis (Pub/Sub), Socket.IO et des tableaux de bord Grafana, permettant aux opérateurs de gérer à distance les sessions de recharge, de configurer une tarification dynamique et de suivre les données de télémétrie sur des réseaux multi-tenant.",
+      "summary": "Développement de WattLink, une plateforme de gestion de bornes de recharge multi-tenant avec Laravel, PostgreSQL, Redis, Socket.IO, Docker et Grafana, permettant de superviser les stations, configurer les tarifs et suivre la télémétrie.",
       "highlights": [
-        "OCPP 1.6, Laravel, Python, Redis, Docker, Socket.IO, Grafana"
+        "Mise en place d'un système de supervision en temps réel avec Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO et Grafana.",
+        "Implémentation de workflows de contrôle à distance pour les sessions de charge et la gestion des prix.",
+        "Conception de modèles multi-tenant sécurisés pour isoler les données et les opérations client.",
+        "Livraison d'une infrastructure de production robuste avec Python et orchestration Docker."
       ]
     },
     {
@@ -42,9 +45,12 @@
       "position": "Développeur Web Full Stack",
       "startDate": "2025-02",
       "endDate": "2025-12",
-      "summary": "Développement des applications web dynamiques en utilisant NodeJS et Java et optimisation de l'architecture des systèmes en intégrant des solutions cloud avec Docker. Collaboration dans des équipes agiles pour livrer des fonctionnalités de qualité dans des délais serrés.",
+      "summary": "Développement d'applications web dynamiques avec React, Next.js, Node.js, Java, Docker, Terraform et Azure, tout en améliorant l'architecture système et les déploiements cloud.",
       "highlights": [
-        "Technologies : React, Next.js, Node.js, JavaFX, Docker"
+        "Livraison de fonctionnalités orientées client dans des équipes agiles, avec un focus sur la maintenabilité et les livraisons rapides.",
+        "Amélioration des workflows de déploiement grâce à Docker et à l'automatisation de l'infrastructure cloud.",
+        "Modernisation des interactions front-end et back-end pour des expériences plus fluides.",
+        "Travail sur React, Next.js, Node.js, Java, Docker, Terraform et Azure pour une livraison scalable."
       ]
     },
     {
@@ -52,9 +58,12 @@
       "position": "Développeur Web Full Stack",
       "startDate": "2024-06",
       "endDate": "2025-01",
-      "summary": "Développement et maintenance d'un CRM complet pour les laboratoires pharmaceutiques. Mon rôle consiste à mettre en œuvre des interfaces front-end, à développer des fonctionnalités back-end et à concevoir des tests approfondis pour les deux.",
+      "summary": "Développement et maintenance d'une plateforme CRM pour laboratoires pharmaceutiques avec React, Quarkus, Docker, JWT, PostgreSQL et MongoDB, couvrant à la fois l'interface et la logique backend.",
       "highlights": [
-        "Technologies : React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+        "Mise en œuvre d'interfaces de laboratoire pour les flux de saisie et les processus internes.",
+        "Création de services backend et de règles métier pour la gestion des produits, clients et commandes.",
+        "Ajout de tests automatisés sur l'ensemble de la stack pour réduire les régressions et améliorer la stabilité.",
+        "Livraison d'un workflow SaaS fiable pour les besoins de recherche, vente et conformité."
       ]
     },
     {
@@ -62,9 +71,12 @@
       "position": "Stage de fin d'études",
       "startDate": "2024-01",
       "endDate": "2024-06",
-      "summary": "Durant mon stage, j'ai acquis une expérience pratique dans le développement et la maintenance d'applications web, en contribuant à la fois aux tâches front-end et back-end.",
+      "summary": "Travail sur le CRM des laboratoires pharmaceutiques avec React, Quarkus, Docker, JWT, PostgreSQL et MongoDB, en contribuant sur toute la stack et en apprenant l'architecture de production.",
       "highlights": [
-        "Technologies : React, Quarkus Java, Docker, JWT, Postgres, MongoDB"
+        "Participation à la conception et à la mise en œuvre initiale de l'architecture applicative.",
+        "Contribution aux fonctionnalités front-end et aux services backend pour les processus métiers critiques.",
+        "Collaboration avec l'équipe pour améliorer la qualité du code, la maintenabilité et les pratiques de déploiement.",
+        "Utilisation de patterns SaaS réels pour soutenir un développement stable et évolutif."
       ]
     },
     {
@@ -72,9 +84,12 @@
       "position": "Stage d'été",
       "startDate": "2023-06",
       "endDate": "2023-07",
-      "summary": "Développement d'un microservice et un API pour la gestion des bons d'achats électroniques pour les clients de la SNDP.",
+      "summary": "Développement d'un microservice et d'une API pour la gestion des bons d'achat électroniques avec C#, ASP.NET, Java et PostgreSQL.",
       "highlights": [
-        "Technologies : C#, ASP.NET, Java, Postgres"
+        "Mise en place de la logique backend pour la gestion du cycle de vie et la validation des bons.",
+        "Intégration des services applicatifs avec une gestion sécurisée des données et des règles métier.",
+        "Collaboration sur la conception des API et l'intégration des services pour les workflows clients.",
+        "Travail dans un environnement orienté services, centré sur des systèmes backend maintenables."
       ]
     }
   ],
