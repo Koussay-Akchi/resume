@@ -39,13 +39,13 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
   date: "Jun 2026 - Aug 2026",
   location: "Tunisia",
   summary: [
-    Designed and deployed a unified API and AI Gateway platform on Apache APISIX, centralizing API management and AI orchestration in a Kubernetes-native environment.
+    Designed and deployed a unified API and AI Gateway platform on Apache APISIX, centralizing API management, load balancing, and AI orchestration in a Kubernetes-native environment.
   ],
   highlights: (
     "Built AI orchestration for OpenAI, Claude, Gemini, and DeepSeek with token usage tracking and PII masking.",
-    "Implemented multi-tenant isolation, JWT and key authentication, Redis-based rate limiting, and canary routing strategies.",
+    "Implemented multi-tenant isolation, JWT and key authentication, Redis-based rate limiting, load balancing, and canary routing strategies.",
     "Delivered a React and Node.js self-service portal with RBAC, observability dashboards, and monitoring coverage.",
-    "Validated service resilience using chaos engineering and cloud-native deployment automation across APIs and data pipelines.",
+    "Validated service resilience using chaos engineering and automated CI/CD deployment pipelines across cloud-native environments.",
   ),
   tools: ("Apache APISIX", "Kubernetes", "Helm", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "Redis", "Node.js", "React", "PostgreSQL"),
 )
@@ -155,7 +155,7 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
 
 *Backend:* Java, Node.js, Python, Laravel, Spring, Quarkus, PHP, C, MediaWiki, REST APIs, GraphQL
 
-*Cloud / DevOps:* Terraform, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry, Vercel, Postman, SonarQube
+*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry, Vercel, Postman, SonarQube
 
 *AI:* PyTorch, TensorFlow, Hugging Face, Ollama, OpenAI, LLMs, AI/ML workflows
 

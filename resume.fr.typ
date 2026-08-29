@@ -35,17 +35,17 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
 
 #experience-item(
   company: "Next Step",
-  position: "Stagiaire en ingénierie cloud",
+  position: "Stage en ingénierie cloud",
   date: "Juin 2026 - Août 2026",
   location: "Tunisie",
   summary: [
-    Conception et déploiement d'une plateforme de passerelle API et IA sur Apache APISIX, centralisant la gestion des API et l'orchestration des services d'IA dans un environnement Kubernetes.
+    Conception et déploiement d'une plateforme de passerelle API et IA sur Apache APISIX, centralisant la gestion des API, l'équilibrage de charge (load balancing) et l'orchestration des services d'IA dans un environnement Kubernetes.
   ],
   highlights: (
     "Création d'une couche d'orchestration IA pour OpenAI, Claude, Gemini et DeepSeek avec mesure de tokens et masquage des données sensibles.",
-    "Mise en place d'une isolation multi-tenant, d'une authentification JWT et clé, ainsi qu'un rate limiting basé sur Redis.",
+    "Mise en place d'une isolation multi-tenant, d'une authentification JWT et clé, d'un rate limiting basé sur Redis, de load balancing et de routage canary.",
     "Livraison d'un portail self-service React et Node.js avec RBAC, tableaux de bord et surveillance d'infrastructure.",
-    "Validation de la résilience grâce au chaos engineering et à l'automatisation des déploiements dans des pipelines cloud-native.",
+    "Validation de la résilience grâce au chaos engineering et à l'automatisation des pipelines CI/CD dans des environnements cloud-native.",
   ),
   tools: ("Apache APISIX", "Kubernetes", "Helm", "Lua", "Kafka", "Prometheus", "Grafana", "Jaeger", "Redis", "Node.js", "React", "PostgreSQL"),
 )
@@ -155,7 +155,7 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
 
 *Backend:* Java, Node.js, Python, Laravel, Spring, Quarkus, PHP, C, MediaWiki, API REST, GraphQL
 
-*Cloud / DevOps:* Terraform, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry, Vercel, Postman, SonarQube
+*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry, Vercel, Postman, SonarQube
 
 *IA:* PyTorch, TensorFlow, Hugging Face, Ollama, OpenAI, LLMs, workflows IA/ML
 
