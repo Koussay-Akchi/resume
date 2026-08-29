@@ -132,8 +132,6 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
 
 #section("Skills")
 
-*Languages:* English, French, Arabic
-
 *Frontend:* Next.js, React, Angular, Flutter, Figma, TypeScript, JavaScript, HTML, CSS
 
 *Backend:* Java, Node.js, Python, Laravel, Spring, Quarkus, PHP, C, MediaWiki, REST APIs, GraphQL

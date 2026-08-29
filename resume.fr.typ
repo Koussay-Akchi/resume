@@ -132,8 +132,6 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
 
 #section("Compétences")
 
-*Langues:* Anglais, Français, Arabe
-
 *Frontend:* Next.js, React, Angular, Flutter, Figma, TypeScript, JavaScript, HTML, CSS
 
 *Backend:* Java, Node.js, Python, Laravel, Spring, Quarkus, PHP, C, MediaWiki, API REST, GraphQL
