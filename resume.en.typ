@@ -132,7 +132,17 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
 
 #section("Skills")
 
-#skill-list(("Node.js", "Java", "Python", "TypeScript", "React", "Next.js", "Angular", "Docker", "Kubernetes", "Terraform", "Linux", "Azure", "MongoDB", "PostgreSQL", "C", "SQL"))
+*Languages:* English, French, Arabic
+
+*Frontend:* Next.js, React, Angular, Flutter, Figma, TypeScript, JavaScript, HTML, CSS
+
+*Backend:* Java, Node.js, Python, Laravel, Spring, Quarkus, PHP, C, MediaWiki, REST APIs, GraphQL
+
+*Cloud / DevOps:* Terraform, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry, Vercel, Postman, SonarQube
+
+*AI:* PyTorch, TensorFlow, Hugging Face, Ollama, OpenAI, LLMs, AI/ML workflows
+
+*Other Tools:* MongoDB, PostgreSQL, Redis, Firebase, MediaWiki, PostHog, Figma, Lua, Linux, Ollama, C, PHP
 
 #section("Languages")
 

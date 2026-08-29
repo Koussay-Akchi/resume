@@ -132,7 +132,17 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
 
 #section("Compétences")
 
-#skill-list(("Node.js", "Java", "Python", "TypeScript", "React", "Next.js", "Angular", "Docker", "Kubernetes", "Terraform", "Linux", "Azure", "MongoDB", "PostgreSQL", "C", "SQL"))
+*Langues:* Anglais, Français, Arabe
+
+*Frontend:* Next.js, React, Angular, Flutter, Figma, TypeScript, JavaScript, HTML, CSS
+
+*Backend:* Java, Node.js, Python, Laravel, Spring, Quarkus, PHP, C, MediaWiki, API REST, GraphQL
+
+*Cloud / DevOps:* Terraform, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry, Vercel, Postman, SonarQube
+
+*IA:* PyTorch, TensorFlow, Hugging Face, Ollama, OpenAI, LLMs, workflows IA/ML
+
+*Autres outils:* MongoDB, PostgreSQL, Redis, Firebase, MediaWiki, PostHog, Figma, Lua, Linux, Ollama, C, PHP
 
 #section("Langues")
 
