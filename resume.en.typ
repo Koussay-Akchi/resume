@@ -2,19 +2,19 @@
 
 #show: resume-theme.with(
   name: "Koussay Akchi",
-  title: "Full Stack Engineer",
+  title: "Cloud Engineer",
   email: "akchikoussay@gmail.com",
   phone: "+216 40 862 777",
   location: "Tunis, Tunisia",
   website: "koussay.tn",
-  linkedin: "linkedin.com/in/koussay-akchi-782765274",
+  linkedin: "linkedin.com/in/koussay-akchi",
   github: "github.com/Koussay-Akchi",
 )
 
 #align(center)[
   #text(size: 22pt, weight: "bold")[Koussay Akchi]
   #linebreak()
-  #text(size: 11pt, fill: rgb("3a3a3a"))[Full Stack Engineer]
+  #text(size: 11pt, fill: rgb("3a3a3a"))[Cloud Engineer]
 ]
 
 #v(0.35em)
@@ -23,7 +23,7 @@
   phone: "+216 40 862 777",
   location: "Tunis, Tunisia",
   website: "koussay.tn",
-  linkedin: "linkedin.com/in/koussay-akchi-782765274",
+  linkedin: "linkedin.com/in/koussay-akchi",
   github: "github.com/Koussay-Akchi",
 )
 
