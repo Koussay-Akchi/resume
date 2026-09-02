@@ -111,6 +111,12 @@
   ],
   "certificates": [
     {
+      "name": "Microsoft Applied Skills: Configure secure access to your workloads using Azure networking",
+      "issuer": "Microsoft",
+      "date": "2026-09",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi-5001/FAE4428DA68E605F?sharingId=7C446232C661FA23"
+    },
+    {
       "name": "CCNA: Switching, Routing, and Wireless Essentials",
       "issuer": "Cisco",
       "url": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials"

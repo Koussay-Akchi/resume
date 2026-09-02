@@ -40,12 +40,27 @@
   github: "",
 ) = {
   let items = ()
-  if email != "" { items.push([Email: #email]) }
-  if phone != "" { items.push([Phone: #phone]) }
-  if location != "" { items.push([Location: #location]) }
-  if website != "" { items.push([Website: #website]) }
-  if linkedin != "" { items.push([LinkedIn: #linkedin]) }
-  if github != "" { items.push([GitHub: #github]) }
+  if email != "" {
+    items.push([Email: #link("mailto:" + email)[#email]])
+  }
+  if phone != "" {
+    items.push([Phone: #phone])
+  }
+  if location != "" {
+    items.push([Location: #location])
+  }
+  if website != "" {
+    let url = if website.starts-with("http://") or website.starts-with("https://") { website } else { "https://" + website }
+    items.push([Website: #link(url)[#website]])
+  }
+  if linkedin != "" {
+    let url = if linkedin.starts-with("http://") or linkedin.starts-with("https://") { linkedin } else { "https://" + linkedin }
+    items.push([LinkedIn: #link(url)[#linkedin]])
+  }
+  if github != "" {
+    let url = if github.starts-with("http://") or github.starts-with("https://") { github } else { "https://" + github }
+    items.push([GitHub: #link(url)[#github]])
+  }
 
   if items.len() > 0 {
     text(size: 9pt)[#items.join(" | ")]
