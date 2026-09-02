@@ -171,12 +171,12 @@ I am a Full Stack Software Engineer with a strong focus on building robust web a
 
 - Microsoft Applied Skills: Configure secure access to your workloads using Azure networking — Microsoft (Sep 2026)
 #v(-0.25em)
-#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi-5001/FAE4428DA68E605F?sharingId=7C446232C661FA23")
+#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F?sharingId=7C446232C661FA23")
 
 #v(0.4em)
 - Microsoft Applied Skills: Get started with Azure management tasks — Microsoft (Sep 2026)
 #v(-0.25em)
-#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi-5001/63B2C35CA975068F?sharingId=7C446232C661FA23")
+#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/63B2C35CA975068F?sharingId=7C446232C661FA23")
 
 #v(0.4em)
 - CCNA: Switching, Routing, and Wireless Essentials — Cisco (Jul 2025)
