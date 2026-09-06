@@ -171,12 +171,17 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
 
 - Microsoft Applied Skills: Configure secure access to your workloads using Azure networking — Microsoft (Sept. 2026)
 #v(-0.25em)
-#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F?sharingId=7C446232C661FA23")
+#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F")
+
+#v(0.4em)
+- Microsoft Applied Skills: Get started with cloud security and monitoring tasks — Microsoft (Sept. 2026)
+#v(-0.25em)
+#h(1.2em)#link("https://learn.microsoft.com/en-us/users/koussayakchi/credentials/6df9c9e21c5b253")
 
 #v(0.4em)
 - Microsoft Applied Skills: Get started with Azure management tasks — Microsoft (Sept. 2026)
 #v(-0.25em)
-#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/63B2C35CA975068F?sharingId=7C446232C661FA23")
+#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/63B2C35CA975068F")
 
 #v(0.4em)
 - CCNA: Switching, Routing, and Wireless Essentials — Cisco (Juillet 2025)

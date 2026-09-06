@@ -114,13 +114,19 @@
       "name": "Microsoft Applied Skills: Configure secure access to your workloads using Azure networking",
       "issuer": "Microsoft",
       "date": "2026-09",
-      "url": "https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F?sharingId=7C446232C661FA23"
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F"
+    },
+    {
+      "name": "Microsoft Applied Skills: Get started with cloud security and monitoring tasks",
+      "issuer": "Microsoft",
+      "date": "2026-09",
+      "url": "https://learn.microsoft.com/en-us/users/koussayakchi/credentials/6df9c9e21c5b253"
     },
     {
       "name": "Microsoft Applied Skills: Get started with Azure management tasks",
       "issuer": "Microsoft",
       "date": "2026-09",
-      "url": "https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/63B2C35CA975068F?sharingId=7C446232C661FA23"
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/63B2C35CA975068F"
     },
     {
       "name": "CCNA: Switching, Routing, and Wireless Essentials",
