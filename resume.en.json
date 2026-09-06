@@ -111,6 +111,12 @@
   ],
   "certificates": [
     {
+      "name": "Microsoft Applied Skills: Deploy cloud-native apps using Azure Container Apps",
+      "issuer": "Microsoft",
+      "date": "2026-09",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/9FC89CD5F97D781C?sharingId=7C446232C661FA23"
+    },
+    {
       "name": "Microsoft Applied Skills: Configure secure access to your workloads using Azure networking",
       "issuer": "Microsoft",
       "date": "2026-09",

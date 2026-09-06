@@ -169,6 +169,11 @@ Je suis un ingénieur logiciel full stack spécialisé dans le développement d'
 
 #section("Certifications")
 
+- Microsoft Applied Skills: Deploy cloud-native apps using Azure Container Apps — Microsoft (Sept. 2026)
+#v(-0.25em)
+#h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/9FC89CD5F97D781C?sharingId=7C446232C661FA23")
+
+#v(0.4em)
 - Microsoft Applied Skills: Configure secure access to your workloads using Azure networking — Microsoft (Sept. 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F")
