@@ -1,6 +1,6 @@
 # koussay-resume
 
-Bilingual (English / French) engineering resume for Koussay Akchi ( me :D ).  
+Bilingual (English / French) engineering resume for Koussay Akchi ( me :D )
 Built with [Typst](https://typst.app/) and structured source files.
 
 ---
@@ -15,10 +15,7 @@ Built with [Typst](https://typst.app/) and structured source files.
 ## Setup & Build
 
 ```bash
-# Install dependencies (if any)
 npm install
-
-# Build both EN and FR PDFs
 npm run build
 ```
 
@@ -41,12 +38,6 @@ Or run Typst directly:
 ```bash
 typst compile resume.en.typ output/koussay_akchi_cv_english.pdf
 typst compile resume.fr.typ output/koussay_akchi_cv_francais.pdf
-```
-
-Watch mode during editing:
-
-```bash
-typst watch resume.en.typ output/koussay_akchi_cv_english.pdf
 ```
 
 ---
