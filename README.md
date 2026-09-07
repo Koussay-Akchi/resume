@@ -1,50 +1,65 @@
 # koussay-resume
 
-Bilingual (English/French) JSON Resume project for Koussay Akchi ( me :D ).  
-Built with [JSON Resume](https://jsonresume.org) + [`@jsonresume/jsonresume-theme-class`](https://github.com/jsonresume/jsonresume-theme-class).
+Bilingual (English / French) engineering resume for Koussay Akchi.  
+Built with [Typst](https://typst.app/) and structured source files.
 
 ---
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org) v18 or higher
-- npm
+- [Typst CLI](https://github.com/typst/typst) (`typst --version`)
+- [Node.js](https://nodejs.org) (v18+) & npm (for build scripts)
 
 ---
 
-## Setup
+## Setup & Build
 
 ```bash
+# Install dependencies (if any)
 npm install
+
+# Build both EN and FR PDFs
 npm run build
+```
+
+Compiled PDFs are output to `output/`:
+- `output/koussay_akchi_cv_english.pdf`
+- `output/koussay_akchi_cv_francais.pdf`
+
+---
+
+## Commands
+
+| Command | Action |
+|---|---|
+| `npm run build` | Compile both English and French CVs |
+| `npm run build:en` | Compile English CV (`resume.en.typ`) |
+| `npm run build:fr` | Compile French CV (`resume.fr.typ`) |
+
+Or run Typst directly:
+
+```bash
+typst compile resume.en.typ output/koussay_akchi_cv_english.pdf
+typst compile resume.fr.typ output/koussay_akchi_cv_francais.pdf
+```
+
+Watch mode during editing:
+
+```bash
+typst watch resume.en.typ output/koussay_akchi_cv_english.pdf
 ```
 
 ---
 
-## Daily Usage
+## Project Structure
 
-| Command | What it does |
-|---|---|
-| `npm run build` | Generate both EN and FR |
-| `npm run build:en` | Generate English CV only |
-| `npm run build:fr` | Generate French CV only |
-
-
----
-
-## Changing the Theme
-
-1. Browse themes at https://jsonresume.org/themes or search npm for `jsonresume-theme-*`
-2. Install the new theme:
-   ```bash
-   npm install jsonresume-theme-<name>
-   ```
-3. Update the `--theme` flag in all `build:*` scripts inside `package.json`.
-4. Update the `"theme"` field inside `meta` in both JSON files.
-5. Run `npm run build`.
+- `resume.en.typ` / `resume.fr.typ`: Typst source documents for English & French versions.
+- `cv_template.typ`: Typst styling, components, layout macros, and theme settings.
+- `resume.en.json` / `resume.fr.json`: JSON Resume structured data mirrors.
+- `output/`: Generated PDF files.
 
 ---
 
 ## License
 
-MIT do whatever you want with this setup
+MIT

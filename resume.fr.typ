@@ -29,7 +29,7 @@
 
 #section("Profil")
 
-Ingénieur Full Stack & Cloud passionné par les architectures web scalables, les écosystèmes cloud-native et l'automatisation DevOps. Expérience solide sur les technologies modernes (React, Node.js, Laravel, Python) et l'infrastructure cloud (Kubernetes, Docker, APISIX, Terraform, CI/CD).
+Ingénieur Full Stack & Cloud passionné par les architectures web scalables, les écosystèmes cloud-native et l'automatisation DevOps. Expérience solide sur les technologies modernes (React, Node.js, Laravel, Python) et l'infrastructure cloud (Azure, Kubernetes, Docker, Terraform, CI/CD).
 #linebreak()
 *Disponible en France à partir de décembre 2026.*
 
