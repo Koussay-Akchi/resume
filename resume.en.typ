@@ -29,7 +29,7 @@
 
 #section("Profile")
 
-I am a Full Stack Software Engineer with a strong focus on building robust web applications, cloud-native systems, and automation solutions. I enjoy working across the stack, from backend architecture to user-facing interfaces, and I continuously improve my skills through projects and hands-on engineering work.
+Full Stack & Cloud Engineer passionate about scalable and robust web architectures, cloud-native systems, and DevOps automation. Experienced across modern backend and frontend stacks (React, Node.js, Laravel, Python) and cloud infrastructure (Azure, Kubernetes, Docker, Terraform, CI/CD). Actively building and sharing production-grade, open-source projects.
 
 #section("Experience")
 

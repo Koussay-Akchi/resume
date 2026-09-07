@@ -29,7 +29,9 @@
 
 #section("Profil")
 
-Je suis un ingénieur logiciel full stack spécialisé dans le développement d'applications web robustes, les systèmes cloud et les solutions d'automatisation. J'aime travailler sur l'ensemble de la chaîne de valeur, de l'architecture backend aux interfaces utilisateur, et j'améliore continuellement mes compétences à travers des projets concrets et des missions techniques.
+Ingénieur Full Stack & Cloud passionné par les architectures web scalables, les écosystèmes cloud-native et l'automatisation DevOps. Expérience solide sur les technologies modernes (React, Node.js, Laravel, Python) et l'infrastructure cloud (Kubernetes, Docker, APISIX, Terraform, CI/CD).
+#linebreak()
+*Disponible en France à partir de décembre 2026.*
 
 #section("Expérience")
 
