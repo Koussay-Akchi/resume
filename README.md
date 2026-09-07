@@ -1,6 +1,6 @@
 # koussay-resume
 
-Bilingual (English / French) engineering resume for Koussay Akchi.  
+Bilingual (English / French) engineering resume for Koussay Akchi ( me :D ).  
 Built with [Typst](https://typst.app/) and structured source files.
 
 ---
