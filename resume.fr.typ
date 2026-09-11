@@ -155,15 +155,17 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
 
 #section("Compétences")
 
-*Frontend:* Next.js, React, Angular, Flutter, Figma, TypeScript, JavaScript, HTML, CSS
+*Frontend:* Next.js, React, Angular, Flutter, HTML, CSS
 
-*Backend:* Java, Node.js, Python, Laravel, Spring, Quarkus, PHP, C, MediaWiki, API REST, GraphQL
+*Backend:* Node.js, Laravel, Spring, Quarkus, MongoDB, PostgreSQL, Redis, API REST, GraphQL
 
-*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry, Vercel, Postman, SonarQube
+*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry
+
+*Langages de programmation:* Java, Python, TypeScript, JavaScript, PHP, C, Lua
 
 *IA:* PyTorch, TensorFlow, Hugging Face, Ollama, OpenAI, LLMs, workflows IA/ML
 
-*Autres outils:* MongoDB, PostgreSQL, Redis, Firebase, MediaWiki, PostHog, Figma, Lua, Linux, Ollama, C, PHP
+*Autres outils:* Figma, MediaWiki, Postman, PostHog, SonarQube, Vercel, Firebase
 
 #section("Langues")
 
