@@ -197,5 +197,80 @@
       "language": "Arabe",
       "fluency": "Langue maternelle"
     }
+  ],
+  "projects": [
+    {
+      "name": "Shorten",
+      "description": "Raccourcisseur d'URL haute disponibilité avec slugs personnalisés, gestion de cycle de vie des liens et métriques d'audience en temps réel.",
+      "highlights": [
+        "Mise en place d'une couche de redirection haute performance avec hachage de slug personnalisé, détection de collisions et gestion d'expiration TTL sur MongoDB Atlas.",
+        "Intégration d'un système de tracking des clics par lien, analyse des user-agents et historique de session par cookies respectueux de la vie privée.",
+        "Mise en œuvre d'un pipeline CI/CD GitHub Actions multi-étapes assurant le contrôle de qualité ESLint, l'analyse statique SonarCloud et la publication d'images Docker multi-architectures."
+      ],
+      "keywords": ["Next.js", "React", "TypeScript", "MongoDB Atlas", "Docker", "GitHub Actions", "SonarCloud"],
+      "url": "https://short.koussay.tn"
+    },
+    {
+      "name": "TirFly",
+      "description": "Plateforme de gestion d'agence de voyage combinant opérations back-office et portail client de réservation (vols, hôtels, séjours et événements).",
+      "highlights": [
+        "Intégration de modèles d'intelligence artificielle pour la recommandation personnalisée d'itinéraires et l'analyse dynamique des avis utilisateurs.",
+        "Connexion et synchronisation avec de multiples API tierces de voyage pour la récupération des disponibilités, horaires et taux de change en direct.",
+        "Mise en place d'un contrôle d'accès basé sur les rôles (RBAC) pour isoler les opérations d'administration internes du portail de réservation client."
+      ],
+      "keywords": ["Symfony", "PHP", "Bootstrap", "Tailwind CSS", "API REST", "Python / Modèles IA", "MySQL"],
+      "url": "https://github.com/Koussay-Akchi/tirfly-web"
+    },
+    {
+      "name": "Suivi de véhicules par IA & Reconnaissance de plaques (ALPR/ANPR)",
+      "description": "Pipeline de vision par ordinateur pour la détection multi-objets, le suivi de trajectoire et la reconnaissance optique de caractères de plaques minéralogiques sur vidéo.",
+      "highlights": [
+        "Détection d'objets en temps réel basée sur le modèle YOLO avec optimisation de l'extraction des boîtes englobantes.",
+        "Suivi continu des véhicules par calcul d'indice de similarité structurelle (SSIM) et corrélation temporelle inter-trames pour préserver l'identifiant malgré les occultations.",
+        "Algorithmes d'analyse de contours et seuillage adaptatif pour isoler les plaques d'immatriculation, couplés à Tesseract OCR pour l'extraction textuelle des numéros."
+      ],
+      "keywords": ["Python", "OpenCV", "YOLO", "SSIM", "Tesseract OCR", "NumPy"],
+      "url": "https://github.com/Koussay-Akchi/safe-driving"
+    },
+    {
+      "name": "Sound-Grid",
+      "description": "Synthétiseur et séquenceur interactif exécuté dans le navigateur pour la composition musicale en boucle polyphonique.",
+      "highlights": [
+        "Ordonnancement audio faible latence et synthèse polyphonique en temps réel exploitant directement l'API native HTML5 Web Audio.",
+        "Interface dynamique fluide (60 FPS) avec gestion d'état centralisée et horloge de synchronisation de tempo/BPM paramétrable."
+      ],
+      "keywords": ["JavaScript", "Web Audio API", "HTML5 Canvas", "CSS3", "Gestion d'état"],
+      "url": "https://soundgrid.koussay.tn/"
+    },
+    {
+      "name": "FTL AutoSave Manager",
+      "description": "Utilitaire desktop d'automatisation pour la capture continue d'états de jeu, le versioning et la restauration instantanée pour Faster Than Light (FTL).",
+      "highlights": [
+        "Surveillance dynamique du système de fichiers avec déclencheurs d'événements pour créer des sauvegardes snapshot atomiques dès modification.",
+        "Arborescence d'historique de sauvegardes, sérialisation des métadonnées et restauration en un clic via une interface utilisateur Java réactive."
+      ],
+      "keywords": ["Java", "Swing", "JavaFX", "I/O Fichiers", "Multi-threading"],
+      "url": "https://github.com/Koussay-Akchi/FTLAutosaveManager"
+    },
+    {
+      "name": "Grid Image Viewer",
+      "description": "Application desktop optimisée dédiée au tri rapide, à l'inspection 2x2 et à l'organisation de grands ensembles d'images locales.",
+      "highlights": [
+        "Chargement multi-threadé asynchrone des vignettes avec mise en cache mémoire et décodage rapide pour éliminer tout gel de l'interface graphique.",
+        "Gestion d'opérations de fichiers atomiques pilotées par raccourcis clavier (suppression, copie, déplacement), pile d'annulation non destructive (undo) et suivi statistique."
+      ],
+      "keywords": ["Python", "Tkinter", "Pillow", "Multi-threading", "Système de fichiers"],
+      "url": "https://github.com/Koussay-Akchi/gridImgViewer"
+    },
+    {
+      "name": "Basic Minesweeper",
+      "description": "Moteur de jeu déterministe et clone complet du Démineur avec résolution algorithmique et paramètres personnalisables.",
+      "highlights": [
+        "Algorithme récursif de remplissage par diffusion (flood-fill) pour le dévoilement en cascade des cellules adjacentes avec complexité calculatoire minimale.",
+        "Paramétrage dynamique des dimensions de grille, de la densité de mines, du niveau de difficulté et chronométrage haute précision."
+      ],
+      "keywords": ["React", "JavaScript", "CSS Grid", "Algorithmique"],
+      "url": "https://minesweeper.koussay.tn/"
+    }
   ]
 }

@@ -132,8 +132,67 @@
   ]
 }
 
+#let project-item(
+  title: "",
+  role: "",
+  date: "",
+  link-url: none,
+  github-url: none,
+  summary: [],
+  highlights: (),
+  tools: (),
+) = {
+  block(width: 100%)[
+    #grid(
+      columns: (1fr, auto),
+      align(left)[
+        #text(weight: "bold", size: 10.5pt)[#title]
+        #if role != "" [ #text(size: 9.5pt, fill: rgb("444444"))[| #role] ]
+      ],
+      align(right)[
+        #if date != "" [ #text(size: 9pt, fill: rgb("555555"))[#date] ]
+      ],
+    )
+
+    #let links = ()
+    #if link-url != none and link-url != "" [
+      #links.push(link(link-url)[#text(size: 8.8pt, fill: rgb("004499"))[Demo / Website]])
+    ]
+    #if github-url != none and github-url != "" [
+      #links.push(link(github-url)[#text(size: 8.8pt, fill: rgb("004499"))[Source Code (GitHub)]])
+    ]
+
+    #if links.len() > 0 [
+      #v(-0.15em)
+      #text(size: 8.8pt)[#links.join(" | ")]
+    ]
+
+    #if summary != [] [
+      #v(0.2em)
+      #summary
+    ]
+
+    #if highlights.len() > 0 [
+      #v(0.2em)
+      #for item in highlights [
+        - #item
+      ]
+    ]
+
+    #if tools.len() > 0 [
+      #v(0.2em)
+      #text(weight: "bold", size: 8.8pt)[Tools: ]
+      #text(size: 8.8pt)[#tools.join(", ")]
+    ]
+
+    #v(0.5em)
+  ]
+}
+
 #let skill-list(items) = {
   if items.len() > 0 {
     text(size: 9.5pt)[#items.join(" • ")]
   }
 }
+
+

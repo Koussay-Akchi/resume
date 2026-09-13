@@ -1,4 +1,4 @@
-#import "cv_template.typ": resume-theme, section, contact-line, experience-item, education-item, skill-list
+#import "cv_template.typ": resume-theme, section, contact-line, experience-item, education-item, project-item, skill-list
 
 #show: resume-theme.with(
   name: "Koussay Akchi",
@@ -171,28 +171,127 @@ Full Stack & Cloud Engineer passionate about scalable and robust web architectur
 
 #section("Certifications")
 
-- Microsoft Applied Skills: Deploy cloud-native apps using Azure Container Apps — Microsoft (Sep 2026)
+- Microsoft Applied Skills: Deploy cloud-native apps using Azure Container Apps - Microsoft (Sep 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/9FC89CD5F97D781C?sharingId=7C446232C661FA23")
 
 #v(0.4em)
-- Microsoft Applied Skills: Configure secure access to your workloads using Azure networking — Microsoft (Sep 2026)
+- Microsoft Applied Skills: Configure secure access to your workloads using Azure networking - Microsoft (Sep 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F")
 
 #v(0.4em)
-- Microsoft Applied Skills: Get started with cloud security and monitoring tasks — Microsoft (Sep 2026)
+- Microsoft Applied Skills: Get started with cloud security and monitoring tasks - Microsoft (Sep 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/en-us/users/koussayakchi/credentials/6df9c9e21c5b253")
 
 #v(0.4em)
-- Microsoft Applied Skills: Get started with Azure management tasks — Microsoft (Sep 2026)
+- Microsoft Applied Skills: Get started with Azure management tasks - Microsoft (Sep 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/63B2C35CA975068F")
 
 #v(0.4em)
-- CCNA: Switching, Routing, and Wireless Essentials — Cisco (Jul 2025)
+- CCNA: Switching, Routing, and Wireless Essentials - Cisco (Jul 2025)
 #v(-0.25em)
 #h(1.2em)#link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")
+
+#section("Projects")
+
+#project-item(
+  title: "Shorten - Production URL Shortener & Analytics",
+  link-url: "https://short.koussay.tn",
+  github-url: "https://github.com/Koussay-Akchi/shorten",
+  summary: [
+    Engineered a production-ready, high-throughput URL shortening service featuring custom vanity slugs, automated link lifecycle management, and real-time per-link analytics.
+  ],
+  highlights: (
+    "Implemented high-performance redirection layer with custom slug hashing, collision detection, and TTL/expiry logic on MongoDB Atlas.",
+    "Integrated privacy-friendly per-link click tracking, user-agent analytics, and cookie-based persistent session history without user friction.",
+    "Built a multi-stage GitHub Actions CI/CD pipeline enforcing automated ESLint code quality gates, SonarCloud static analysis, and multi-arch Docker image packaging.",
+  ),
+  tools: ("Next.js", "React", "TypeScript", "MongoDB Atlas", "Docker", "GitHub Actions", "SonarCloud"),
+)
+
+#project-item(
+  title: "TirFly - AI-Powered Travel Management Platform",
+  github-url: "https://github.com/Koussay-Akchi/tirfly-web",
+  summary: [
+    Architected an end-to-end travel platform combining agency back-office operations with client booking workflows for flights, accommodations, customized vacation packages, and events.
+  ],
+  highlights: (
+    "Integrated machine learning models for personalized travel recommendation engines and dynamic sentiment/feedback analysis.",
+    "Developed robust integrations with third-party travel APIs for live flight schedules, hotel inventory, and real-time exchange rates.",
+    "Implemented role-based access control (RBAC) separating administrative CRUD workflows from customer self-service reservation lifecycles.",
+  ),
+  tools: ("Symfony", "PHP", "Bootstrap", "Tailwind CSS", "REST APIs", "Python / AI Models", "MySQL"),
+)
+
+#project-item(
+  title: "AI Vehicle Tracking & Automated License Plate Recognition (ALPR/ANPR)",
+  github-url: "https://github.com/Koussay-Akchi/safe-driving",
+  summary: [
+    Developed a high-throughput computer vision pipeline for multi-object vehicle detection, trajectory tracking, and automated license plate character recognition from real-time video streams.
+  ],
+  highlights: (
+    "Built real-time vehicle detection using YOLO object detection models with optimized bounding-box localization.",
+    "Designed continuous multi-vehicle tracking using Structural Similarity Index Measure (SSIM) and temporal frame matching to maintain distinct identity across occlusions.",
+    "Engineered contour analysis heuristics and thresholding algorithms to extract license plate regions of interest, feeding segmented character streams into Tesseract OCR for text extraction.",
+  ),
+  tools: ("Python", "OpenCV", "YOLO", "SSIM", "Tesseract OCR", "NumPy"),
+)
+
+#project-item(
+  title: "Sound-Grid - Interactive Web Audio Synthesizer & Sequencer",
+  link-url: "https://soundgrid.koussay.tn/",
+  github-url: "https://github.com/Koussay-Akchi/soundgrid",
+  summary: [
+    Created an interactive browser-based step sequencer and audio visualizer for polyphonic loop composition.
+  ],
+  highlights: (
+    "Engineered low-latency audio scheduling and polyphonic playback using the native HTML5 Web Audio API.",
+    "Designed a responsive 60fps grid matrix interface with state synchronization and custom tempo/BPM clock synchronization.",
+  ),
+  tools: ("JavaScript", "Web Audio API", "HTML5 Canvas / CSS3", "State Management"),
+)
+
+#project-item(
+  title: "FTL AutoSave Manager - Desktop Save State & Backup System",
+  github-url: "https://github.com/Koussay-Akchi/FTLAutosaveManager",
+  summary: [
+    Engineered a cross-platform desktop automation utility for real-time game save state tracking, versioning, and rollback management for Faster Than Light (FTL).
+  ],
+  highlights: (
+    "Implemented automated filesystem watchers and event hooks to detect file modification events and trigger atomic snapshot backups.",
+    "Engineered save state branching, metadata serialization, and one-click restoration workflows via a responsive Java GUI.",
+  ),
+  tools: ("Java", "Swing / JavaFX", "Filesystem I/O", "Concurrency / Threading"),
+)
+
+#project-item(
+  title: "Grid Image Viewer - High-Speed 2x2 Image Triage Utility",
+  github-url: "https://github.com/Koussay-Akchi/gridImgViewer",
+  summary: [
+    Built an optimized desktop media triage utility designed for rapid categorization, tagging, and organization of large local image datasets.
+  ],
+  highlights: (
+    "Constructed a multi-threaded thumbnail loader utilizing memory caching and fast image decoders to prevent UI freezes during large batch browsing.",
+    "Integrated hotkey-driven atomic file operations (copy, delete, move) with non-destructive undo buffers and session statistics tracking.",
+  ),
+  tools: ("Python", "Tkinter", "Pillow (PIL)", "Multithreading", "OS / Filesystem"),
+)
+
+#project-item(
+  title: "Minesweeper - State-Driven Game Engine Clone",
+  link-url: "https://minesweeper.koussay.tn/",
+  github-url: "https://github.com/Koussay-Akchi/minesweeper",
+  summary: [
+    Implemented a full-featured browser recreation of classic Minesweeper emphasizing deterministic board generation and algorithmic state resolution.
+  ],
+  highlights: (
+    "Implemented recursive flood-fill algorithms for zero-cell reveal cascade operations with optimal computational complexity.",
+    "Engineered customizable grid dimensions, difficulty parameters, mine-density configurations, and high-precision timer tracking.",
+  ),
+  tools: ("React", "JavaScript (ES6+)", "CSS3 / CSS Grid", "Algorithms"),
+)
 
 

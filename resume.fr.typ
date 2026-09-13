@@ -1,4 +1,4 @@
-#import "cv_template.typ": resume-theme, section, contact-line, experience-item, education-item, skill-list
+#import "cv_template.typ": resume-theme, section, contact-line, experience-item, education-item, project-item, skill-list
 
 #show: resume-theme.with(
   name: "Koussay Akchi",
@@ -173,28 +173,127 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
 
 #section("Certifications")
 
-- Microsoft Applied Skills: Deploy cloud-native apps using Azure Container Apps — Microsoft (Sept. 2026)
+- Microsoft Applied Skills: Deploy cloud-native apps using Azure Container Apps - Microsoft (Sept. 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/9FC89CD5F97D781C?sharingId=7C446232C661FA23")
 
 #v(0.4em)
-- Microsoft Applied Skills: Configure secure access to your workloads using Azure networking — Microsoft (Sept. 2026)
+- Microsoft Applied Skills: Configure secure access to your workloads using Azure networking - Microsoft (Sept. 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/FAE4428DA68E605F")
 
 #v(0.4em)
-- Microsoft Applied Skills: Get started with cloud security and monitoring tasks — Microsoft (Sept. 2026)
+- Microsoft Applied Skills: Get started with cloud security and monitoring tasks - Microsoft (Sept. 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/en-us/users/koussayakchi/credentials/6df9c9e21c5b253")
 
 #v(0.4em)
-- Microsoft Applied Skills: Get started with Azure management tasks — Microsoft (Sept. 2026)
+- Microsoft Applied Skills: Get started with Azure management tasks - Microsoft (Sept. 2026)
 #v(-0.25em)
 #h(1.2em)#link("https://learn.microsoft.com/api/credentials/share/en-us/koussayakchi/63B2C35CA975068F")
 
 #v(0.4em)
-- CCNA: Switching, Routing, and Wireless Essentials — Cisco (Juillet 2025)
+- CCNA: Switching, Routing, and Wireless Essentials - Cisco (Juillet 2025)
 #v(-0.25em)
 #h(1.2em)#link("https://www.credly.com/badges/058d5f66-db69-484d-88be-525bb33c98c9")
+
+#section("Projets")
+
+#project-item(
+  title: "Shorten - Raccourcisseur d'URL & Analytics en production",
+  link-url: "https://short.koussay.tn",
+  github-url: "https://github.com/Koussay-Akchi/shorten",
+  summary: [
+    Conception et déploiement d'un service de réduction d'URL haute disponibilité et performant, avec slugs personnalisés, gestion de cycle de vie des liens et métriques d'audience en temps réel.
+  ],
+  highlights: (
+    "Mise en place d'une couche de redirection haute performance avec hachage de slug personnalisé, détection de collisions et gestion d'expiration TTL sur MongoDB Atlas.",
+    "Intégration d'un système de tracking des clics par lien, analyse des user-agents et historique de session par cookies respectueux de la vie privée.",
+    "Mise en œuvre d'un pipeline CI/CD GitHub Actions multi-étapes assurant le contrôle de qualité ESLint, l'analyse statique SonarCloud et la publication d'images Docker multi-architectures.",
+  ),
+  tools: ("Next.js", "React", "TypeScript", "MongoDB Atlas", "Docker", "GitHub Actions", "SonarCloud"),
+)
+
+#project-item(
+  title: "TirFly - Plateforme de gestion de voyages assistée par IA",
+  github-url: "https://github.com/Koussay-Akchi/tirfly-web",
+  summary: [
+    Développement d'une plateforme web complète combinant la gestion back-office des offres agence et un parcours client unifié pour la réservation de vols, hébergements, séjours sur-mesure et événements.
+  ],
+  highlights: (
+    "Intégration de modèles d'intelligence artificielle pour la recommandation personnalisée d'itinéraires et l'analyse dynamique des avis utilisateurs.",
+    "Connexion et synchronisation avec de multiples API tierces de voyage pour la récupération des disponibilités, horaires et taux de change en direct.",
+    "Mise en place d'un contrôle d'accès basé sur les rôles (RBAC) pour isoler les opérations d'administration internes du portail de réservation client.",
+  ),
+  tools: ("Symfony", "PHP", "Bootstrap", "Tailwind CSS", "API REST", "Python / Modèles IA", "MySQL"),
+)
+
+#project-item(
+  title: "Suivi de véhicules par vision par ordinateur & Reconnaissance de plaques (ALPR/ANPR)",
+  github-url: "https://github.com/Koussay-Akchi/safe-driving",
+  summary: [
+    Pipeline de vision par ordinateur pour la détection multi-objets, le tracking de trajectoires de véhicules et la reconnaissance optique de caractères (OCR) de plaques d'immatriculation sur flux vidéo.
+  ],
+  highlights: (
+    "Détection d'objets en temps réel basée sur le modèle YOLO avec optimisation de l'extraction des boîtes englobantes.",
+    "Suivi continu des véhicules par calcul d'indice de similarité structurelle (SSIM) et corrélation temporelle inter-trames pour préserver l'identifiant malgré les occultations.",
+    "Algorithmes d'analyse de contours et seuillage adaptatif pour isoler les plaques d'immatriculation, couplés à Tesseract OCR pour l'extraction textuelle des numéros.",
+  ),
+  tools: ("Python", "OpenCV", "YOLO", "SSIM", "Tesseract OCR", "NumPy"),
+)
+
+#project-item(
+  title: "Sound-Grid - Synthétiseur & Séquenceur audio interactif pour le web",
+  link-url: "https://soundgrid.koussay.tn/",
+  github-url: "https://github.com/Koussay-Akchi/soundgrid",
+  summary: [
+    Application web interactive de composition musicale et visualiseur sonore par matrice de pas polyphonique exécutée directement dans le navigateur.
+  ],
+  highlights: (
+    "Ordonnancement audio faible latence et synthèse polyphonique en temps réel exploitant directement l'API native HTML5 Web Audio.",
+    "Interface dynamique fluide (60 FPS) avec gestion d'état centralisée et horloge de synchronisation de tempo/BPM paramétrable.",
+  ),
+  tools: ("JavaScript", "Web Audio API", "HTML5 Canvas / CSS3", "Gestion d'état"),
+)
+
+#project-item(
+  title: "FTL AutoSave Manager - Système de sauvegardes automatisées & Versioning",
+  github-url: "https://github.com/Koussay-Akchi/FTLAutosaveManager",
+  summary: [
+    Utilitaire desktop d'automatisation pour la capture continue de points de restauration, le versioning d'états de jeu et la restauration instantanée pour le jeu Faster Than Light (FTL).
+  ],
+  highlights: (
+    "Surveillance dynamique du système de fichiers avec déclencheurs d'événements pour créer des sauvegardes snapshot atomiques dès modification.",
+    "Arborescence d'historique de sauvegardes, sérialisation des métadonnées et restauration en un clic via une interface utilisateur Java réactive.",
+  ),
+  tools: ("Java", "Swing / JavaFX", "I/O Système de fichiers", "Concurrence / Multi-threading"),
+)
+
+#project-item(
+  title: "Grid Image Viewer - Utilitaire haute performance de tri d'images 2x2",
+  github-url: "https://github.com/Koussay-Akchi/gridImgViewer",
+  summary: [
+    Application desktop optimisée dédiée au tri rapide, à l'évaluation comparative et à la classification de gros volumes de fichiers images locaux.
+  ],
+  highlights: (
+    "Chargement multi-threadé asynchrone des vignettes avec mise en cache mémoire et décodage rapide pour éliminer tout gel de l'interface graphique.",
+    "Gestion d'opérations de fichiers atomiques pilotées par raccourcis clavier (suppression, copie, déplacement), pile d'annulation non destructive (undo) et suivi statistique.",
+  ),
+  tools: ("Python", "Tkinter", "Pillow (PIL)", "Multi-threading", "Système d'exploitation / I/O"),
+)
+
+#project-item(
+  title: "Minesweeper - Moteur de jeu déterministe & Algorithmique",
+  link-url: "https://minesweeper.koussay.tn/",
+  github-url: "https://github.com/Koussay-Akchi/minesweeper",
+  summary: [
+    Moteur de jeu complet du Démineur classique, mettant l'accent sur une génération de grille déterministe et une résolution d'états algorithmique rigoureuse.
+  ],
+  highlights: (
+    "Algorithme récursif de remplissage par diffusion (flood-fill) pour le dévoilement en cascade des cellules adjacentes avec complexité calculatoire minimale.",
+    "Paramétrage dynamique des dimensions de grille, de la densité de mines, du niveau de difficulté et chronométrage haute précision.",
+  ),
+  tools: ("React", "JavaScript (ES6+)", "CSS3 / CSS Grid", "Algorithmique"),
+)
 
 

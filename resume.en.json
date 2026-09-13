@@ -197,5 +197,80 @@
       "language": "Arabic",
       "fluency": "Native"
     }
+  ],
+  "projects": [
+    {
+      "name": "Shorten",
+      "description": "Production-ready, high-throughput URL shortening service featuring custom vanity slugs, automated link lifecycle management, and real-time per-link analytics.",
+      "highlights": [
+        "Implemented high-performance redirection layer with custom slug hashing, collision detection, and TTL/expiry logic on MongoDB Atlas.",
+        "Integrated privacy-friendly per-link click tracking, user-agent analytics, and cookie-based persistent session history without user friction.",
+        "Built a multi-stage GitHub Actions CI/CD pipeline enforcing automated ESLint code quality gates, SonarCloud static analysis, and multi-arch Docker image packaging."
+      ],
+      "keywords": ["Next.js", "React", "TypeScript", "MongoDB Atlas", "Docker", "GitHub Actions", "SonarCloud"],
+      "url": "https://short.koussay.tn"
+    },
+    {
+      "name": "TirFly",
+      "description": "End-to-end travel agency management platform combining back-office CRUD operations with client booking workflows for flights, accommodations, vacation packages, and events.",
+      "highlights": [
+        "Integrated machine learning models for personalized travel recommendation engines and dynamic sentiment/feedback analysis.",
+        "Developed robust integrations with third-party travel APIs for live flight schedules, hotel inventory, and real-time exchange rates.",
+        "Implemented role-based access control (RBAC) separating administrative workflows from customer self-service reservation lifecycles."
+      ],
+      "keywords": ["Symfony", "PHP", "Bootstrap", "Tailwind CSS", "REST APIs", "Python / AI Models", "MySQL"],
+      "url": "https://github.com/Koussay-Akchi/tirfly-web"
+    },
+    {
+      "name": "AI Vehicle Tracking & License Plate Recognition",
+      "description": "High-throughput computer vision pipeline for multi-object vehicle detection, trajectory tracking, and automated license plate character recognition from real-time video streams.",
+      "highlights": [
+        "Built real-time vehicle detection using YOLO object detection models with optimized bounding-box localization.",
+        "Designed continuous multi-vehicle tracking using Structural Similarity Index Measure (SSIM) and temporal frame matching to maintain distinct identity across occlusions.",
+        "Engineered contour analysis heuristics and thresholding algorithms to extract license plate regions of interest, feeding segmented character streams into Tesseract OCR for text extraction."
+      ],
+      "keywords": ["Python", "OpenCV", "YOLO", "SSIM", "Tesseract OCR", "NumPy"],
+      "url": "https://github.com/Koussay-Akchi/safe-driving"
+    },
+    {
+      "name": "Sound-Grid",
+      "description": "Interactive browser-based step sequencer and audio visualizer for polyphonic loop composition.",
+      "highlights": [
+        "Engineered low-latency audio scheduling and polyphonic playback using the native HTML5 Web Audio API.",
+        "Designed a responsive 60fps grid matrix interface with state synchronization and custom tempo/BPM clock synchronization."
+      ],
+      "keywords": ["JavaScript", "Web Audio API", "HTML5 Canvas", "CSS3", "State Management"],
+      "url": "https://soundgrid.koussay.tn/"
+    },
+    {
+      "name": "FTL AutoSave Manager",
+      "description": "Cross-platform desktop automation utility for real-time game save state tracking, versioning, and rollback management for Faster Than Light (FTL).",
+      "highlights": [
+        "Implemented automated filesystem watchers and event hooks to detect file modification events and trigger atomic snapshot backups.",
+        "Engineered save state branching, metadata serialization, and one-click restoration workflows via a responsive Java GUI."
+      ],
+      "keywords": ["Java", "Swing", "JavaFX", "Filesystem I/O", "Concurrency"],
+      "url": "https://github.com/Koussay-Akchi/FTLAutosaveManager"
+    },
+    {
+      "name": "Grid Image Viewer",
+      "description": "Optimized desktop media triage utility designed for rapid categorization, tagging, and organization of large local image datasets.",
+      "highlights": [
+        "Constructed a multi-threaded thumbnail loader utilizing memory caching and fast image decoders to prevent UI freezes during large batch browsing.",
+        "Integrated hotkey-driven atomic file operations (copy, delete, move) with non-destructive undo buffers and session statistics tracking."
+      ],
+      "keywords": ["Python", "Tkinter", "Pillow", "Multithreading", "OS I/O"],
+      "url": "https://github.com/Koussay-Akchi/gridImgViewer"
+    },
+    {
+      "name": "Basic Minesweeper",
+      "description": "Full-featured browser recreation of classic Minesweeper emphasizing deterministic board generation and algorithmic state resolution.",
+      "highlights": [
+        "Implemented recursive flood-fill algorithms for zero-cell reveal cascade operations with optimal computational complexity.",
+        "Engineered customizable grid dimensions, difficulty parameters, mine-density configurations, and high-precision timer tracking."
+      ],
+      "keywords": ["React", "JavaScript", "CSS Grid", "Algorithms"],
+      "url": "https://minesweeper.koussay.tn/"
+    }
   ]
 }
