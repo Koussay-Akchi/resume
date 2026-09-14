@@ -200,6 +200,18 @@
   ],
   "projects": [
     {
+      "name": "Cluverse",
+      "description": "Enterprise-grade, microservice-based SaaS platform modernizing student club operations with private cloud infrastructure, self-healing orchestration, and applied AI intelligence.",
+      "highlights": [
+        "Automated private cloud infrastructure on OpenStack using Heat templates and bootstrapped a multi-node Kubernetes cluster (v1.35.1) with Ingress-NGINX, Spring Cloud Gateway, and Cloudflare Tunnel.",
+        "Engineered multi-layer cluster observability and predictive AI telemetry combining Prometheus, Alertmanager, Grafana, and an embedded Meta Prophet time-series engine for preemptive resource anomaly detection.",
+        "Integrated Spring Boot 3.4 microservices with autonomous AI services: FastAPI interview speech analyzer (Whisper v2 + Groq Llama 3.1), cashflow forecasting model, and Stripe payment fraud detection.",
+        "Implemented automated configuration management and zero-downtime rolling updates via Ansible playbooks and container image polling daemons."
+      ],
+      "keywords": ["OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis"],
+      "url": "https://github.com/Koussay-Akchi"
+    },
+    {
       "name": "Shorten",
       "description": "Production-ready, high-throughput URL shortening service featuring custom vanity slugs, automated link lifecycle management, and real-time per-link analytics.",
       "highlights": [

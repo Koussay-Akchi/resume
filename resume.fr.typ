@@ -200,6 +200,21 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
 #section("Projets")
 
 #project-item(
+  title: "Cluverse - Plateforme SaaS Cloud-Native & IA pour la gestion d'organisations",
+  github-url: "https://github.com/Koussay-Akchi",
+  summary: [
+    Conception et déploiement d'une plateforme SaaS microservices d'envergure pour moderniser les opérations des clubs étudiants, soutenue par une infrastructure cloud privé, une orchestration résiliente et des services d'IA autonomes.
+  ],
+  highlights: (
+    "Provisionnement automatisé d'un cloud privé sur OpenStack (Heat) et déploiement d'un cluster Kubernetes multi-nœuds (v1.35.1) avec Ingress-NGINX, Spring Cloud Gateway et Cloudflare Tunnel.",
+    "Mise en place d'une observabilité complète et d'un moteur de télémétrie prédictive combinant Prometheus, Alertmanager, Grafana et un modèle Meta Prophet pour l'anticipation des anomalies de ressources.",
+    "Intégration d'un écosystème de microservices Spring Boot 3.4 couplé à des modules IA sous FastAPI : analyse d'entretiens vocaux (Whisper v2 + Groq Llama 3.1), prévision de trésorerie et détection de fraude Stripe.",
+    "Automatisation du déploiement continu et des mises à jour sans interruption de service via des playbooks Ansible et daemons de scrutation d'images conteneurisées.",
+  ),
+  tools: ("OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis"),
+)
+
+#project-item(
   title: "Shorten - Raccourcisseur d'URL & Analytics en production",
   link-url: "https://short.koussay.tn",
   github-url: "https://github.com/Koussay-Akchi/shorten",
