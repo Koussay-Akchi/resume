@@ -208,8 +208,8 @@
         "Integrated Spring Boot 3.4 microservices with autonomous AI services: FastAPI interview speech analyzer (Whisper v2 + Groq Llama 3.1), cashflow forecasting model, and Stripe payment fraud detection.",
         "Implemented automated configuration management and zero-downtime rolling updates via Ansible playbooks and container image polling daemons."
       ],
-      "keywords": ["OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis"],
-      "url": "https://github.com/Koussay-Akchi"
+      "keywords": ["OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis", "Zabbix"],
+      "url": "https://github.com/Koussay-Akchi/Cluverse"
     },
     {
       "name": "Shorten",

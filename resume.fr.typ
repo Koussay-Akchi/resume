@@ -201,7 +201,7 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
 
 #project-item(
   title: "Cluverse - Plateforme SaaS Cloud-Native & IA pour la gestion d'organisations",
-  github-url: "https://github.com/Koussay-Akchi",
+  github-url: "https://github.com/Koussay-Akchi/Cluverse",
   summary: [
     Conception et déploiement d'une plateforme SaaS microservices d'envergure pour moderniser les opérations des clubs étudiants, soutenue par une infrastructure cloud privé, une orchestration résiliente et des services d'IA autonomes.
   ],
@@ -211,7 +211,7 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
     "Intégration d'un écosystème de microservices Spring Boot 3.4 couplé à des modules IA sous FastAPI : analyse d'entretiens vocaux (Whisper v2 + Groq Llama 3.1), prévision de trésorerie et détection de fraude Stripe.",
     "Automatisation du déploiement continu et des mises à jour sans interruption de service via des playbooks Ansible et daemons de scrutation d'images conteneurisées.",
   ),
-  tools: ("OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis"),
+  tools: ("OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis", "Zabbix"),
 )
 
 #project-item(

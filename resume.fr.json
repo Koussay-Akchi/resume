@@ -208,8 +208,8 @@
         "Intégration d'un écosystème de microservices Spring Boot 3.4 couplé à des modules IA sous FastAPI : analyse d'entretiens vocaux (Whisper v2 + Groq Llama 3.1), prévision de trésorerie et détection de fraude Stripe.",
         "Automatisation du déploiement continu et des mises à jour sans interruption de service via des playbooks Ansible et daemons de scrutation d'images conteneurisées."
       ],
-      "keywords": ["OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis"],
-      "url": "https://github.com/Koussay-Akchi"
+      "keywords": ["OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis", "Zabbix"],
+      "url": "https://github.com/Koussay-Akchi/Cluverse"
     },
     {
       "name": "Shorten",

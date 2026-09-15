@@ -209,7 +209,7 @@ Full Stack & Cloud Engineer passionate about scalable and robust web architectur
     "Integrated Spring Boot 3.4 microservices with autonomous AI services: FastAPI interview speech analyzer (Whisper v2 + Groq Llama 3.1), cashflow forecasting model, and Stripe payment fraud detection.",
     "Implemented automated configuration management and zero-downtime rolling updates via Ansible playbooks and container image polling daemons.",
   ),
-  tools: ("OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis"),
+  tools: ("OpenStack", "Kubernetes", "Spring Boot", "FastAPI", "Python", "Meta Prophet", "Ansible", "Prometheus", "Grafana", "Docker", "MySQL", "Redis", "Zabbix"),
 )
 
 #project-item(
