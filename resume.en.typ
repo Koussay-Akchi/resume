@@ -8,7 +8,7 @@
   email: "akchikoussay@gmail.com",
   phone: "+216 40 862 777",
   location: "Tunis, Tunisia",
-  website: "koussay.tn",
+  website: "www.koussay.tn",
   linkedin: "linkedin.com/in/koussay-akchi",
   github: "github.com/Koussay-Akchi",
   photo: "photo.jpg",

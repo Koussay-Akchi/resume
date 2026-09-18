@@ -14,7 +14,7 @@
     paper: "a4",
     margin: (left: 1.2cm, right: 1.2cm, top: 1.1cm, bottom: 1.0cm),
   )
-  set text(font: ("Liberation Sans", "Helvetica Neue", "Arial", "Roboto"), size: 9.5pt, fill: rgb("#1f2937"))
+  set text(font: ("Arial", "Liberation Sans"), size: 9.5pt, fill: rgb("#1f2937"))
   set par(justify: true, leading: 0.52em)
   set list(indent: 0.8em, body-indent: 0.4em)
 
@@ -33,6 +33,30 @@
   heading(level: 2, outlined: false, title)
 }
 
+#let icon-email = box(baseline: 15%, width: 9.5pt, height: 9.5pt)[
+  #image("icons/email.svg", width: 100%, height: 100%)
+]
+
+#let icon-phone = box(baseline: 15%, width: 9.5pt, height: 9.5pt)[
+  #image("icons/phone.svg", width: 100%, height: 100%)
+]
+
+#let icon-location = box(baseline: 15%, width: 9.5pt, height: 9.5pt)[
+  #image("icons/location.svg", width: 100%, height: 100%)
+]
+
+#let icon-globe = box(baseline: 15%, width: 9.5pt, height: 9.5pt)[
+  #image("icons/globe.svg", width: 100%, height: 100%)
+]
+
+#let icon-linkedin = box(baseline: 15%, width: 9.5pt, height: 9.5pt)[
+  #image("icons/linkedin.svg", width: 100%, height: 100%)
+]
+
+#let icon-github = box(baseline: 15%, width: 9.5pt, height: 9.5pt)[
+  #image("icons/github.svg", width: 100%, height: 100%)
+]
+
 #let cv-header(
   name: "",
   title: "",
@@ -46,25 +70,26 @@
 ) = {
   let contacts = ()
   if email != "" {
-    contacts.push([*Email:* #link("mailto:" + email)[#email]])
+    contacts.push([#icon-email #h(4pt) #link("mailto:" + email)[#email]])
   }
   if phone != "" {
-    contacts.push([*Phone:* #phone])
+    let clean-phone = phone.replace(" ", "")
+    contacts.push([#icon-phone #h(4pt) #link("tel:" + clean-phone)[#phone]])
   }
   if location != "" {
-    contacts.push([*Location:* #location])
+    contacts.push([#icon-location #h(4pt) #location])
   }
   if website != "" {
     let url = if website.starts-with("http://") or website.starts-with("https://") { website } else { "https://" + website }
-    contacts.push([*Web:* #link(url)[#website]])
+    contacts.push([#icon-globe #h(4pt) #link(url)[#website]])
   }
   if linkedin != "" {
     let url = if linkedin.starts-with("http://") or linkedin.starts-with("https://") { linkedin } else { "https://" + linkedin }
-    contacts.push([*LinkedIn:* #link(url)[#linkedin]])
+    contacts.push([#icon-linkedin #h(4pt) #link(url)[#linkedin]])
   }
   if github != "" {
     let url = if github.starts-with("http://") or github.starts-with("https://") { github } else { "https://" + github }
-    contacts.push([*GitHub:* #link(url)[#github]])
+    contacts.push([#icon-github #h(4pt) #link(url)[#github]])
   }
 
   let text-block = [
@@ -75,7 +100,7 @@
     #text(size: 8.5pt, fill: rgb("#334155"))[
       #grid(
         columns: (1fr, 1fr),
-        row-gutter: 0.3em,
+        row-gutter: 0.35em,
         ..contacts
       )
     ]
@@ -128,25 +153,26 @@
 ) = {
   let items = ()
   if email != "" {
-    items.push([Email: #link("mailto:" + email)[#email]])
+    items.push([#icon-email #h(3pt) #link("mailto:" + email)[#email]])
   }
   if phone != "" {
-    items.push([Phone: #phone])
+    let clean-phone = phone.replace(" ", "")
+    items.push([#icon-phone #h(3pt) #link("tel:" + clean-phone)[#phone]])
   }
   if location != "" {
-    items.push([Location: #location])
+    items.push([#icon-location #h(3pt) #location])
   }
   if website != "" {
     let url = if website.starts-with("http://") or website.starts-with("https://") { website } else { "https://" + website }
-    items.push([Website: #link(url)[#website]])
+    items.push([#icon-globe #h(3pt) #link(url)[#website]])
   }
   if linkedin != "" {
     let url = if linkedin.starts-with("http://") or linkedin.starts-with("https://") { linkedin } else { "https://" + linkedin }
-    items.push([LinkedIn: #link(url)[#linkedin]])
+    items.push([#icon-linkedin #h(3pt) #link(url)[#linkedin]])
   }
   if github != "" {
     let url = if github.starts-with("http://") or github.starts-with("https://") { github } else { "https://" + github }
-    items.push([GitHub: #link(url)[#github]])
+    items.push([#icon-github #h(3pt) #link(url)[#github]])
   }
 
   if items.len() > 0 {
