@@ -1,6 +1,8 @@
-#import "cv_template.typ": resume-theme, section, contact-line, experience-item, education-item, project-item, skill-list
+#import "cv_template.typ": resume-theme, section, cv-header, experience-item, education-item, project-item, skill-list
 
-#show: resume-theme.with(
+#show: resume-theme.with()
+
+#cv-header(
   name: "Koussay Akchi",
   title: "Ingénieur Cloud",
   email: "akchikoussay@gmail.com",
@@ -9,23 +11,9 @@
   website: "koussay.tn",
   linkedin: "linkedin.com/in/koussay-akchi",
   github: "github.com/Koussay-Akchi",
+  photo: "photo.jpg",
 )
 
-#align(center)[
-  #text(size: 22pt, weight: "bold")[Koussay Akchi]
-  #linebreak()
-  #text(size: 11pt, fill: rgb("3a3a3a"))[Ingénieur Cloud]
-]
-
-#v(0.35em)
-#contact-line(
-  email: "akchikoussay@gmail.com",
-  phone: "+216 40 862 777",
-  location: "Tunis, Tunisie",
-  website: "koussay.tn",
-  linkedin: "linkedin.com/in/koussay-akchi",
-  github: "github.com/Koussay-Akchi",
-)
 
 #section("Profil")
 
