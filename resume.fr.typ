@@ -4,7 +4,7 @@
 
 #cv-header(
   name: "Koussay Akchi",
-  title: "Ingénieur Cloud",
+  title: "Ingénieur Full Stack & Cloud",
   email: "akchikoussay@gmail.com",
   phone: "+216 40 862 777",
   location: "Tunis, Tunisie",
