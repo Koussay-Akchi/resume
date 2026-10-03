@@ -90,7 +90,7 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
     "Amélioration des performances frontend, de la gestion d'état et de la modularité des composants pour des interfaces fluides.",
     "Intégration de vérifications CI/CD automatisées et d'environnements conteneurisés pour sécuriser les déploiements multi-services.",
   ),
-  tools: ("React", "Next.js", "Node.js", "Java", "Docker", "Terraform", "Azure"),
+  tools: ("React", "Next.js", "Node.js", "Java", "Docker", "Terraform", "Azure", "AWS"),
 )
 
 #experience-item(
@@ -164,7 +164,7 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
 
 *Backend:* Node.js, Laravel, Spring, Quarkus, MongoDB, PostgreSQL, Redis, API REST, GraphQL
 
-*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry
+*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, AWS, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry
 
 *Langages de programmation:* Java, Python, TypeScript, JavaScript, PHP, C, Lua
 

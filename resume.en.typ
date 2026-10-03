@@ -88,7 +88,7 @@ Full Stack & Cloud Engineer passionate about scalable and robust web architectur
     "Enhanced frontend performance, state management, and component modularity for seamless user experiences.",
     "Integrated automated CI/CD checks and containerized environments to ensure reliable multi-service deployments.",
   ),
-  tools: ("React", "Next.js", "Node.js", "Java", "Docker", "Terraform", "Azure"),
+  tools: ("React", "Next.js", "Node.js", "Java", "Docker", "Terraform", "Azure", "AWS"),
 )
 
 #experience-item(
@@ -164,7 +164,7 @@ Full Stack & Cloud Engineer passionate about scalable and robust web architectur
 
 *Programming Languages:* Java, Python, TypeScript, JavaScript, PHP, C, Lua
 
-*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry
+*Cloud / DevOps:* Terraform, IaaC (Infrastructure as Code), CI/CD, Jenkins, Azure, AWS, Kubernetes, Docker, Ansible, Linux, OpenStack, Grafana, Prometheus, Helm, Apache APISIX, Kafka, Jaeger, OpenTelemetry
 
 *AI:* PyTorch, TensorFlow, Hugging Face, Ollama, OpenAI, LLMs, AI/ML workflows
 

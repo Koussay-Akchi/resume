@@ -58,12 +58,12 @@
       "position": "Développeur Web Full Stack",
       "startDate": "2025-02",
       "endDate": "2025-12",
-      "summary": "Développement d'applications web dynamiques avec React, Next.js, Node.js, Java, Docker, Terraform et Azure, tout en améliorant l'architecture système et les déploiements cloud.",
+      "summary": "Développement d'applications web dynamiques avec React, Next.js, Node.js, Java, Docker, Terraform, Azure et AWS, tout en améliorant l'architecture système et les déploiements cloud.",
       "highlights": [
         "Livraison de fonctionnalités orientées client dans des équipes agiles, avec un focus sur la maintenabilité et les livraisons rapides.",
         "Amélioration des workflows de déploiement grâce à Docker et à l'automatisation de l'infrastructure cloud.",
         "Modernisation des interactions front-end et back-end pour des expériences plus fluides.",
-        "Travail sur React, Next.js, Node.js, Java, Docker, Terraform et Azure pour une livraison scalable."
+        "Travail sur React, Next.js, Node.js, Java, Docker, Terraform, Azure et AWS pour une livraison scalable."
       ]
     },
     {
