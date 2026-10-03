@@ -22,6 +22,23 @@ Full Stack & Cloud Engineer passionate about scalable and robust web architectur
 #section("Experience")
 
 #experience-item(
+  company: "Hergli Mayor SL / Freelance",
+  position: "Full Stack Software Engineer",
+  date: "Sep 2026 - Present",
+  location: "Spain",
+  summary: [
+    Architected and scaled next-generation EV charging management systems (CSMS) supporting dual OCPP 1.6-J and OCPP 2.0.1 / 2.1 protocol suites, enabling smart charging profiles, bi-directional energy dispatch, dynamic tariff engines, and secure high-throughput station telemetry.
+  ],
+  highlights: (
+    "Engineered robust dual-protocol OCPP (1.6-J & 2.1) communication engines with WebSocket event streaming, ISO 15118 smart charging profiles, and real-time transaction lifecycle processing.",
+    "Built high-throughput real-time telemetry processing pipelines handling sub-second meter values using Redis Pub/Sub, Socket.IO, PostgreSQL, and time-series monitoring dashboards in Grafana.",
+    "Implemented automated smart charging schedules, dynamic load management (DLM), flexible tariff rate calculation, and remote hardware diagnostics / firmware update workflows.",
+    "Architected resilient multi-tenant infrastructure orchestrating Java and Python microservices on Kubernetes and Docker with automated failover and isolated tenant data partitions.",
+  ),
+  tools: ("OCPP 2.1", "OCPP 1.6", "Java", "Python", "Kubernetes", "Redis", "Docker", "Socket.IO", "Grafana", "PostgreSQL"),
+)
+
+#experience-item(
   company: "Next Step",
   position: "Cloud Engineering Intern",
   date: "Jun 2026 - Aug 2026",
@@ -43,7 +60,7 @@ Full Stack & Cloud Engineer passionate about scalable and robust web architectur
 #experience-item(
   company: "OpkodeLabs",
   position: "Full Stack Software Engineer",
-  date: "Jul 2025 - Present",
+  date: "Jul 2025 - Aug 2026",
   location: "Tunisia",
   summary: [
     Developed WattLink, a multi-tenant EV charging management platform built on the OCPP 1.6 protocol, with real-time visibility into station status, pricing, sessions, and telemetry data.

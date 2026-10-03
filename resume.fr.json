@@ -28,10 +28,23 @@
   },
   "work": [
     {
+      "name": "Hergli Mayor SL / Freelance",
+      "position": "Ingénieur logiciel full stack",
+      "startDate": "2026-09",
+      "endDate": "",
+      "summary": "Conception et mise à l'échelle d'une plateforme de gestion de bornes de recharge pour véhicules électriques (CSMS) de nouvelle génération en Espagne, prenant en charge les protocoles OCPP 1.6-J et OCPP 2.0.1 / 2.1, avec profils de recharge intelligente, gestion dynamique de puissance, tarification avancée et flux télémétriques haute performance.",
+      "highlights": [
+        "Développement de moteurs de communication bidirectionnels bi-protocoles OCPP (1.6-J et 2.1) via WebSockets, gestion des profils de recharge intelligente (ISO 15118) et traitement sécurisé du cycle de vie des sessions.",
+        "Mise en place de pipelines de traitement télémétrique temps réel haute cadence pour les relevés de compteurs instantanés avec Redis Pub/Sub, Socket.IO, PostgreSQL et métriques Grafana.",
+        "Implémentation d'algorithmes de délestage et de répartition dynamique de charge (DLM), calcul automatisé de grilles tarifaires et télégestion du matériel.",
+        "Architecture d'infrastructures multi-tenant résilientes orchestrant des microservices Java et Python sous Kubernetes et Docker, garantissant une isolation stricte des données et des opérations par client."
+      ]
+    },
+    {
       "name": "OpkodeLabs",
       "position": "Développeur Web Full Stack",
       "startDate": "2025-07",
-      "endDate": "",
+      "endDate": "2026-08",
       "summary": "Développement de WattLink, une plateforme de gestion de bornes de recharge multi-tenant avec Laravel, PostgreSQL, Redis, Socket.IO, Docker et Grafana, permettant de superviser les stations, configurer les tarifs et suivre la télémétrie.",
       "highlights": [
         "Mise en place d'un système de supervision en temps réel avec Laravel, PostgreSQL, Redis Pub/Sub, Socket.IO et Grafana.",

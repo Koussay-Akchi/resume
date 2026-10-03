@@ -24,6 +24,23 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
 #section("Expérience")
 
 #experience-item(
+  company: "Hergli Mayor SL / Freelance",
+  position: "Ingénieur logiciel full stack",
+  date: "Sept. 2026 - Aujourd'hui",
+  location: "Espagne",
+  summary: [
+    Conception et mise à l'échelle d'une plateforme de gestion de bornes de recharge pour véhicules électriques (CSMS) de nouvelle génération, prenant en charge les protocoles OCPP 1.6-J et OCPP 2.0.1 / 2.1, avec profils de recharge intelligente, gestion dynamique de puissance, tarification avancée et flux télémétriques haute performance.
+  ],
+  highlights: (
+    "Développement de moteurs de communication bidirectionnels bi-protocoles OCPP (1.6-J et 2.1) via WebSockets, gestion des profils de recharge intelligente (ISO 15118) et traitement sécurisé du cycle de vie des sessions.",
+    "Mise en place de pipelines de traitement télémétrique temps réel haute cadence pour les relevés de compteurs instantanés avec Redis Pub/Sub, Socket.IO, PostgreSQL et métriques Grafana.",
+    "Implémentation d'algorithmes de délestage et de répartition dynamique de charge (DLM), calcul automatisé de grilles tarifaires et télégestion du matériel (diagnostics à distance et déploiement de firmwares).",
+    "Architecture d'infrastructures multi-tenant résilientes orchestrant des microservices Java et Python sous Kubernetes et Docker, garantissant une isolation stricte des données et des opérations par client.",
+  ),
+  tools: ("OCPP 2.1", "OCPP 1.6", "Java", "Python", "Kubernetes", "Redis", "Docker", "Socket.IO", "Grafana", "PostgreSQL"),
+)
+
+#experience-item(
   company: "Next Step",
   position: "Stage en ingénierie cloud",
   date: "Juin 2026 - Août 2026",
@@ -45,7 +62,7 @@ Ingénieur Full Stack & Cloud passionné par les architectures web scalables, le
 #experience-item(
   company: "OpkodeLabs",
   position: "Ingénieur logiciel full stack",
-  date: "Juillet 2025 - Aujourd'hui",
+  date: "Juillet 2025 - Août 2026",
   location: "Tunisie",
   summary: [
     Développement de WattLink, une plateforme de gestion de bornes de recharge EV multi-tenant basée sur le protocole OCPP 1.6, avec visibilité en temps réel sur l'état des stations, les tarifs, les sessions et la télémétrie.
